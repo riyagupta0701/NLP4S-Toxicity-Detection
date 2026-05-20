@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Claude Code (local agent state/settings + project guidance file)
+.claude/
+.claude/settings.local.json
+CLAUDE.md
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Logs & experiment tracking
+*.log
+wandb/
+
+# Model weights / large binaries (keep these in data/ or outputs/, which are ignored)
+*.ckpt
+*.pt
+*.bin
+*.safetensors
+
+# Data & experiment outputs: contents ignored, directory structure kept via .gitkeep
+data/**
+outputs/**
+!data/**/
+!outputs/**/
+!**/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

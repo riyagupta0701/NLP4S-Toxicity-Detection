@@ -1,0 +1,20 @@
+# Role B — XLM-RoBERTa encoder baseline
+# Consumed by nlp4s.encoder.*
+
+model:
+  name: "xlm-roberta-base"   # or xlm-roberta-large
+  num_labels: 2              # binary: hateful / non-hateful
+  max_length: 128
+
+train:
+  data_path: "data/processed/train.jsonl"
+  epochs: 3
+  batch_size: 16
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  seed: 42
+  output_dir: "outputs/encoder"
+
+infer:
+  eval_path: "data/raw/mhc"          # MHC eval split
+  predictions_out: "outputs/encoder/predictions.jsonl"

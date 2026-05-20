@@ -1,0 +1,24 @@
+# Role A — data preparation & synthetic generation
+# Consumed by nlp4s.data.* and nlp4s.generation.*
+
+mhc:
+  # HuggingFace dataset id for Multilingual HateCheck (evaluation only)
+  hf_dataset: "mteb/multi-hatecheck"
+  cache_dir: "data/raw/mhc"
+
+hasoc:
+  # Local paths to HASOC editions; only en/de/hi overlap with MHC eval languages.
+  root: "data/raw/hasoc"
+
+corpus:
+  out_path: "data/processed/train.jsonl"
+  # Languages to include in the assembled training corpus.
+  languages: ["en", "de", "hi"]
+
+generation:
+  # Which MHC languages to synthesise implicit examples for (set after the
+  # baseline decision point; empty means "decide from coverage report").
+  target_languages: []
+  shots_per_prompt: 5
+  examples_per_language: 200
+  out_path: "data/synthetic/implicit.jsonl"

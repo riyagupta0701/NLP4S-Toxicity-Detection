@@ -1,0 +1,29 @@
+# Core ML / data
+torch
+transformers
+datasets
+scikit-learn
+pandas
+numpy
+
+# Config / utils
+pyyaml
+python-dotenv
+tqdm
+
+# LLM API clients (API-based inference)
+cohere
+openai
+
+# Few-shot demonstration selection
+rank-bm25
+sentence-transformers
+
+# Explanation-quality metrics
+bert-score
+
+# Plotting
+matplotlib
+
+# Testing
+pytest

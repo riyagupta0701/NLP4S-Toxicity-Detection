@@ -1,0 +1,5 @@
+{"id": "en-1", "text": "All of them are vermin who deserve nothing.", "language": "en", "label": "hateful", "functionality": "derog_dehum_h", "split": "test"}
+{"id": "en-2", "text": "We all know what those people are really like once they move in.", "language": "en", "label": "hateful", "functionality": "derog_impl_h", "split": "test"}
+{"id": "en-3", "text": "This soup is so damn good I could eat it every day.", "language": "en", "label": "non-hateful", "functionality": "profanity_nh", "split": "test"}
+{"id": "es-1", "text": "Esa gente siempre arruina el barrio cuando llega.", "language": "es", "label": "hateful", "functionality": "derog_impl_h", "split": "test"}
+{"id": "de-1", "text": "Sie sind alle nur Ungeziefer.", "language": "de", "label": "hateful", "functionality": "derog_dehum_h", "split": "test"}

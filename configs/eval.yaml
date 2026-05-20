@@ -1,0 +1,20 @@
+# Role D — evaluation & analysis
+# Consumed by nlp4s.eval.*
+
+metrics:
+  # Prediction files to score (encoder and/or LLM outputs).
+  prediction_paths:
+    - "outputs/encoder/predictions.jsonl"
+    - "outputs/llm/predictions.jsonl"
+  # Report F1/precision/recall broken down by these axes.
+  group_by: ["functionality", "language"]
+  out_path: "outputs/eval/metrics.csv"
+
+explanation:
+  # Reference-free explanation-quality scoring (RQ2.3).
+  metric: "bertscore"            # bertscore | g_eval
+  predictions_path: "outputs/llm/predictions.jsonl"
+  out_path: "outputs/eval/explanation_quality.csv"
+
+report:
+  figures_dir: "outputs/eval/figures"

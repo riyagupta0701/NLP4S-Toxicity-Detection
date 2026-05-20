@@ -1,0 +1,22 @@
+# Role C — multi-LLM prompting (API-based, no fine-tuning)
+# Consumed by nlp4s.llm.*
+
+models:
+  - name: "aya-23"
+    provider: "cohere"          # uses COHERE_API_KEY
+    model_id: "c4ai-aya-23-8b"
+  - name: "mistral-7b"
+    provider: "openai_compatible"  # uses OPENAI_COMPATIBLE_* env vars
+    model_id: "mistral-7b-instruct"
+  - name: "llama-3-8b"
+    provider: "openai_compatible"
+    model_id: "llama-3-8b-instruct"
+
+prompting:
+  # Conditions to run for RQ3.
+  conditions: ["no_explanation", "explanation"]
+  shots: 4                       # 0 => zero-shot
+  fewshot_selection: "random"    # random | bm25 | target_group
+  temperature: 0.0
+  eval_path: "data/raw/mhc"
+  predictions_out: "outputs/llm/predictions.jsonl"
