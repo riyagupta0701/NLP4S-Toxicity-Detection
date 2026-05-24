@@ -19,10 +19,9 @@ from nlp4s.config import load_yaml
 
 def _cmd_prep(args: argparse.Namespace) -> None:
     """Role A: load + normalise MHC/HASOC and assemble the training corpus."""
-    _ = load_yaml(args.config)
-    raise NotImplementedError(
-        "TODO(Role A): orchestrate nlp4s.data.{mhc,hasoc,corpus} using the config"
-    )
+    from nlp4s.data import prep
+
+    prep.run(load_yaml(args.config))
 
 
 def _cmd_generate(args: argparse.Namespace) -> None:

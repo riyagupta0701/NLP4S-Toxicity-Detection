@@ -5,15 +5,21 @@ mhc:
   # HuggingFace dataset id for Multilingual HateCheck (evaluation only)
   hf_dataset: "mteb/multi-hatecheck"
   cache_dir: "data/raw/mhc"
+  # Processed MHC dump (filtered to the 6 studied functionalities) for
+  # downstream roles to read instead of re-hitting HuggingFace.
+  out_path: "data/processed/mhc.jsonl"
 
 hasoc:
   # Local paths to HASOC editions; only en/de/hi overlap with MHC eval languages.
+  # Expected layout: data/raw/hasoc/{en,de,hi}/*.tsv (or .csv).
   root: "data/raw/hasoc"
 
 corpus:
   out_path: "data/processed/train.jsonl"
   # Languages to include in the assembled training corpus.
   languages: ["en", "de", "hi"]
+  # Per-language coverage report — feeds the Phase-2 decision point.
+  coverage_out: "outputs/data/coverage.json"
 
 generation:
   # Which MHC languages to synthesise implicit examples for (set after the
