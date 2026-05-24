@@ -14,16 +14,23 @@ EXPLICIT: frozenset[str] = frozenset(
 IMPLICIT: frozenset[str] = frozenset({"derog_impl_h"})
 CONTROL: frozenset[str] = frozenset({"profanity_nh"})
 
-Group = str  # one of: "explicit", "implicit", "control"
+# Synthetic-only tag for ToxiGen-style neutral mentions of minority groups
+# produced by Role A's generator. Not an MHC functionality — no MHC category
+# fits this cleanly — but downstream filters / consumers accept it.
+SYNTHETIC: frozenset[str] = frozenset({"neutral_mention_nh"})
+
+Group = str  # one of: "explicit", "implicit", "control", "synthetic"
 
 
 def group_of(functionality: str) -> Group:
-    """Map an MHC functionality label to its category.
+    """Map a functionality label to its category.
 
-    Returns one of ``"explicit"``, ``"implicit"``, or ``"control"``.
+    Returns one of ``"explicit"``, ``"implicit"``, ``"control"``, or
+    ``"synthetic"`` (the last covers Role-A synthetic-only tags like
+    ``neutral_mention_nh``).
 
     Raises:
-        KeyError: if the functionality is not part of the studied subset.
+        KeyError: if the functionality is not known.
     """
     if functionality in EXPLICIT:
         return "explicit"
@@ -31,6 +38,8 @@ def group_of(functionality: str) -> Group:
         return "implicit"
     if functionality in CONTROL:
         return "control"
+    if functionality in SYNTHETIC:
+        return "synthetic"
     raise KeyError(f"Unknown / out-of-scope functionality: {functionality!r}")
 
 

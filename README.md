@@ -60,4 +60,55 @@ nlp4s llm --config configs/llm.yaml
 nlp4s eval --config configs/eval.yaml
 ```
 
-(Subcommands currently parse args and call into `TODO` functions.)
+`prep` and `generate` are implemented (Role A); the rest still call into `TODO` functions owned by their roles.
+
+## Role A — data & synthetic generation
+
+### Required raw layout
+
+MHC is downloaded automatically from HuggingFace. HASOC is **not redistributable**, so you obtain the per-edition files from the shared-task organisers and drop them under `data/raw/hasoc/<lang>/`:
+
+```
+data/raw/
+  mhc/                       # HuggingFace cache (created on first run)
+  hasoc/
+    en/   hasoc_2019_en_train.tsv, hasoc_2020_en_train.tsv, ...
+    de/   hasoc_2019_de_train.tsv, ...
+    hi/   hasoc_2019_hi_train.tsv, ...
+```
+
+The loader auto-detects `.tsv` / `.csv` / `.txt`, sniffs delimiters, and accepts column-name variants (`text`/`tweet`/`comment`/`post`, `task_1`/`task1`/`label`/...). Per-language directories that are missing produce a warning and are skipped — a partial download still yields a usable training corpus.
+
+### `nlp4s prep` — assemble training corpus + coverage report
+
+```bash
+nlp4s prep --config configs/data.yaml
+```
+
+Produces:
+
+| Path | Contents |
+|------|----------|
+| `data/processed/mhc.jsonl` | MHC eval set in the frozen schema, filtered to the 6 studied functionalities (`derog_neg_attrib_h, derog_dehum_h, derog_impl_h, slur_h, profanity_h, profanity_nh`). |
+| `data/processed/train.jsonl` | HASOC training corpus for the configured languages (deduped on normalised text, validated against the schema). |
+| `outputs/data/coverage.json` | Per-language example counts across all 11 MHC languages, plus the `missing_languages` list — the Phase-2 decision input. |
+
+The MHC step is best-effort: if HuggingFace is unreachable, a warning is emitted and corpus assembly continues so prep stays useful offline.
+
+### `nlp4s generate` — synthetic implicit-multilingual examples
+
+```bash
+nlp4s generate --config configs/data.yaml
+```
+
+Generates matched (implicit-hateful, non-hateful-control) pairs in the target languages using a multilingual LLM (Aya-23 via `CohereClient` once Role C ships it). Target-language resolution is layered:
+
+1. `generation.target_languages` in the config (explicit, set by you after the baseline lands).
+2. `missing_languages` from `outputs/data/coverage.json` (zero-coverage MHC languages).
+3. Static fallback `languages_without_training_data()` with a warning.
+
+Each generated example uses the frozen schema with `split="synthetic"`, `functionality="derog_impl_h"` for hateful and `functionality="profanity_nh"` for the matched control. Output goes to `data/synthetic/implicit.jsonl`, after dedup + length + label/functionality-consistency + language-ID filtering.
+
+### Cross-role dependency
+
+Role A waits on **Role B's baseline matrix** before committing on `generation.target_languages`. Until then, the coverage report drives target selection automatically — start with the 8 MHC languages that have no HASOC training data (`ar, nl, fr, it, zh, pl, pt, es`) and revise once the baseline reveals which functionalities × languages most need help.

@@ -34,6 +34,7 @@ def test_group_of_known_functionalities():
     assert group_of("derog_impl_h") == "implicit"
     assert group_of("slur_h") == "explicit"
     assert group_of("profanity_nh") == "control"
+    assert group_of("neutral_mention_nh") == "synthetic"
 
 
 def test_group_of_unknown_raises():

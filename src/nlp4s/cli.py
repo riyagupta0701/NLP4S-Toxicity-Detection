@@ -19,18 +19,16 @@ from nlp4s.config import load_yaml
 
 def _cmd_prep(args: argparse.Namespace) -> None:
     """Role A: load + normalise MHC/HASOC and assemble the training corpus."""
-    _ = load_yaml(args.config)
-    raise NotImplementedError(
-        "TODO(Role A): orchestrate nlp4s.data.{mhc,hasoc,corpus} using the config"
-    )
+    from nlp4s.data import prep
+
+    prep.run(load_yaml(args.config))
 
 
 def _cmd_generate(args: argparse.Namespace) -> None:
     """Role A: generate synthetic implicit-multilingual examples."""
-    _ = load_yaml(args.config)
-    raise NotImplementedError(
-        "TODO(Role A): orchestrate nlp4s.generation.{generator,filters} using the config"
-    )
+    from nlp4s.generation import orchestrate
+
+    orchestrate.run(load_yaml(args.config))
 
 
 def _cmd_train(args: argparse.Namespace) -> None:
@@ -85,6 +83,14 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> None:
+    # Load API keys etc. from .env if present, so users don't need to source it.
+    try:
+        from dotenv import load_dotenv
+
+        load_dotenv()
+    except ImportError:
+        pass
+
     parser = build_parser()
     args = parser.parse_args(argv)
     args.handler(args)
