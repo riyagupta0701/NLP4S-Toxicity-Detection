@@ -23,18 +23,36 @@ class LLMClient(abc.ABC):
 
 
 class CohereClient(LLMClient):
-    """Aya backend via the Cohere API.
+    """Aya backend via the Cohere API (Chat v2 endpoint).
 
-    TODO(Role C): construct a cohere client from COHERE_API_KEY in ``__init__``
-    and implement ``complete`` against the chat endpoint with ``model_id``.
+    Minimal Role-A implementation so `nlp4s generate` is runnable end-to-end
+    against real Aya before Role C lands their multi-backend version. Role C
+    is free to rewrite this — the public surface is just ``complete``.
     """
 
     def __init__(self, model_id: str) -> None:
+        import os
+
+        import cohere  # local import: heavy dep
+
+        api_key = os.environ.get("COHERE_API_KEY")
+        if not api_key:
+            raise RuntimeError(
+                "COHERE_API_KEY is not set; copy .env.example to .env and fill it in"
+            )
         self.model_id = model_id
-        # TODO(Role C): initialise cohere.Client(api_key=os.environ["COHERE_API_KEY"]).
+        self._client = cohere.ClientV2(api_key=api_key)
 
     def complete(self, prompt: str, *, temperature: float = 0.0, max_tokens: int = 512) -> str:
-        raise NotImplementedError("TODO(Role C): implement Cohere/Aya completion")
+        response = self._client.chat(
+            model=self.model_id,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=temperature,
+            max_tokens=max_tokens,
+        )
+        # ClientV2 returns response.message.content as a list of content blocks.
+        content = response.message.content or []
+        return "".join(getattr(block, "text", "") for block in content)
 
 
 class OpenAICompatibleClient(LLMClient):

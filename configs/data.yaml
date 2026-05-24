@@ -22,9 +22,11 @@ corpus:
   coverage_out: "outputs/data/coverage.json"
 
 generation:
-  # LLM backend for synthetic generation. Aya-23 covers all 11 MHC languages.
+  # LLM backend for synthetic generation. Aya Expanse 32B is Cohere's
+  # multilingual model currently served on the hosted API (Aya-23 is open
+  # weights only). Switch to a HF inference path if you want Aya-23 itself.
   provider: "cohere"
-  model_id: "c4ai-aya-23-8b"
+  model_id: "c4ai-aya-expanse-32b"
   # Which MHC languages to synthesise implicit examples for (set after the
   # baseline decision point; empty means "read coverage.json and target the
   # zero-coverage languages").
