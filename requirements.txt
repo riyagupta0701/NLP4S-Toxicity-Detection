@@ -19,6 +19,9 @@ openai
 rank-bm25
 sentence-transformers
 
+# Language-ID for synthetic-generation quality filter (Role A)
+fasttext-langdetect
+
 # Explanation-quality metrics
 bert-score
 
