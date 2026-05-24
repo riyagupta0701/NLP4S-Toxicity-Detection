@@ -16,7 +16,6 @@ Implemented as a plain function so it's importable from tests and the CLI.
 from __future__ import annotations
 
 import json
-import random
 import warnings
 from pathlib import Path
 from typing import Any
@@ -69,20 +68,6 @@ def _load_demonstrations(path: str | None) -> list[Example]:
     return filtered or list(_BUILTIN_SEED)
 
 
-def _pick_shots(pool: list[Example], shots: int, rng: random.Random) -> list[Example]:
-    """Take ~half hateful + ~half non-hateful from ``pool`` so prompts are balanced."""
-    hateful = [e for e in pool if e.label == "hateful"]
-    non_hateful = [e for e in pool if e.label == "non-hateful"]
-    n_h = max(1, shots // 2) if hateful else 0
-    n_n = shots - n_h
-    picks: list[Example] = []
-    if hateful:
-        picks.extend(rng.sample(hateful, min(n_h, len(hateful))))
-    if non_hateful:
-        picks.extend(rng.sample(non_hateful, min(n_n, len(non_hateful))))
-    return picks or pool[:shots]
-
-
 def _resolve_target_languages(
     explicit: list[str], coverage_path: str | None
 ) -> list[str]:
@@ -123,7 +108,6 @@ def run(cfg: dict[str, Any], *, client: LLMClient | None = None) -> list[Example
     temperature = float(gen_cfg.get("temperature", 0.7))
     out_path = Path(gen_cfg["out_path"])
     seed = int(gen_cfg.get("seed", 42))
-    rng = random.Random(seed)
 
     demo_pool = _load_demonstrations(gen_cfg.get("demonstrations_path"))
     print(f"[generate] demonstration pool: {len(demo_pool)} examples")
@@ -139,14 +123,17 @@ def run(cfg: dict[str, Any], *, client: LLMClient | None = None) -> list[Example
         client = build_client(provider, model_id)
 
     all_examples: list[Example] = []
-    for language in target_languages:
-        shots_used = _pick_shots(demo_pool, shots, rng)
+    for lang_idx, language in enumerate(target_languages):
+        # Per-call demo rotation happens inside generate_for_language; the seed
+        # we hand it is offset per language for reproducible-yet-distinct draws.
         raw = generate_for_language(
             client,
             language,
-            shots_used,
+            demo_pool,
             n=examples_per_language,
+            shots=shots,
             temperature=temperature,
+            seed=seed + lang_idx,
         )
         deduped = deduplicate(raw)
         filtered = quality_filter(deduped)

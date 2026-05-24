@@ -30,13 +30,15 @@ generation:
   # Which MHC languages to synthesise implicit examples for (set after the
   # baseline decision point; empty means "read coverage.json and target the
   # zero-coverage languages").
-  target_languages: []
+  target_languages: ["es"]
   # Demonstration source for in-context prompting. Defaults to the processed
   # MHC dump written by `nlp4s prep`; falls back to a built-in seed if missing.
   demonstrations_path: "data/processed/mhc.jsonl"
-  shots_per_prompt: 5
+  # ToxiGen-style: more demos in each prompt + higher temperature for diversity.
+  # ~200 examples / (13 targets x 2 stances) ≈ 8 examples per (group, stance) call.
+  shots_per_prompt: 8
   examples_per_language: 200
-  temperature: 0.7
+  temperature: 0.9
   out_path: "data/synthetic/implicit.jsonl"
   # Coverage report from prep — drives target_languages when that list is empty.
   coverage_path: "outputs/data/coverage.json"

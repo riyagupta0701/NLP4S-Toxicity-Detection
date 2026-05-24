@@ -1,12 +1,15 @@
 """Quality filtering and deduplication for synthetically generated examples.
 
-Three filters, applied in order by ``quality_filter``:
-  1. Length bounds (drop empty / one-word / runaway outputs).
-  2. Language ID (drop generations that drifted off the requested language).
+Four filters, applied in order by ``quality_filter`` (cheap → expensive):
+  1. Refusal detection — drop LLM safety-filter responses ("I cannot ...",
+     "as an AI ...", etc.) that occasionally leak through despite the
+     research-framed prompt.
+  2. Length bounds (drop empty / one-word / runaway outputs).
+  3. Label/functionality consistency (drop examples whose label contradicts
+     the bucket their functionality belongs to).
+  4. Language ID (drop generations that drifted off the requested language).
      Uses ``fasttext-langdetect`` when available; degrades gracefully to a
      no-op + warning if the dependency is missing.
-  3. Label/functionality consistency (drop pairs whose label contradicts the
-     bucket their functionality belongs to).
 
 Role A.
 """
@@ -17,7 +20,7 @@ import unicodedata
 import warnings
 from collections.abc import Iterable
 
-from nlp4s.functionalities import CONTROL, EXPLICIT, IMPLICIT, group_of
+from nlp4s.functionalities import CONTROL, EXPLICIT, IMPLICIT, SYNTHETIC, group_of
 from nlp4s.schema import Example
 
 # Length bounds in whitespace-separated tokens — matches the prompt's "5-30
@@ -56,18 +59,60 @@ def _length_ok(text: str) -> bool:
     return _MIN_WORDS <= len(words) <= _MAX_WORDS
 
 
+# Common English refusal/meta phrases from aligned LLMs. Matching is
+# case-insensitive substring. The list intentionally targets distinctive
+# fragments that don't appear in normal Spanish/French/etc. content, so a
+# Spanish sentence containing the word "cannot" won't false-positive (Spanish
+# wouldn't naturally include English phrases like "I cannot fulfill").
+_REFUSAL_MARKERS: tuple[str, ...] = (
+    "i cannot fulfill",
+    "i cannot generate",
+    "i cannot provide",
+    "i can't fulfill",
+    "i can't generate",
+    "i can't provide",
+    "i'm unable to",
+    "i am unable to",
+    "my purpose is to be helpful",
+    "my purpose is to",
+    "as an ai",
+    "as a language model",
+    "as a large language model",
+    "i must decline",
+    "i won't",
+    "i will not generate",
+    "harmful and inaccurate",
+    "harmful and discriminatory",
+    "goes against",
+    "against this core principle",
+    "promoting respect",
+    "respectful and inclusive language",
+    "i'm sorry, but",
+    "i am sorry, but",
+    "instead of generating",
+    "instead of providing",
+    "let's focus on",
+    "i can provide you with resources",
+)
+
+
+def _looks_like_refusal(text: str) -> bool:
+    low = text.lower()
+    return any(marker in low for marker in _REFUSAL_MARKERS)
+
+
 def _label_functionality_ok(example: Example) -> bool:
-    """Hateful must map to EXPLICIT|IMPLICIT; non-hateful must map to CONTROL."""
+    """Hateful -> EXPLICIT|IMPLICIT; non-hateful -> CONTROL or SYNTHETIC."""
     func = example.functionality
     if not func:
         return True  # no functionality annotation -> can't check
     try:
-        group = group_of(func)
+        group_of(func)
     except KeyError:
         return False
     if example.label == "hateful":
         return func in EXPLICIT or func in IMPLICIT
-    return func in CONTROL  # non-hateful
+    return func in CONTROL or func in SYNTHETIC  # non-hateful
 
 
 # --- Language ID --------------------------------------------------------------
@@ -124,11 +169,13 @@ def _language_ok(example: Example) -> bool:
 def quality_filter(examples: Iterable[Example]) -> list[Example]:
     """Drop low-quality / off-target generations.
 
-    Applies length, language-ID, and label/functionality-consistency checks.
-    Order is intentional: cheap checks first, language ID last.
+    Applies refusal, length, label/functionality-consistency, and language-ID
+    checks in that order (cheap → expensive).
     """
     out: list[Example] = []
     for example in examples:
+        if _looks_like_refusal(example.text):
+            continue
         if not _length_ok(example.text):
             continue
         if not _label_functionality_ok(example):
