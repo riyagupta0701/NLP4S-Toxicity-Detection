@@ -30,7 +30,7 @@ generation:
   # Which MHC languages to synthesise implicit examples for (set after the
   # baseline decision point; empty means "read coverage.json and target the
   # zero-coverage languages").
-  target_languages: ["es"]
+  target_languages: []
   # Demonstration source for in-context prompting. Defaults to the processed
   # MHC dump written by `nlp4s prep`; falls back to a built-in seed if missing.
   demonstrations_path: "data/processed/mhc.jsonl"

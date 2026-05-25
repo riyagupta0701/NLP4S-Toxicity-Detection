@@ -41,6 +41,7 @@ outputs/**
 !data/**/
 !outputs/**/
 !**/.gitkeep
+!data/synthetic/implicit.csv
 
 # OS / editor
 .DS_Store
