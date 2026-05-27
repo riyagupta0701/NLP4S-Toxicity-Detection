@@ -37,7 +37,7 @@ generation:
   # ToxiGen-style: more demos in each prompt + higher temperature for diversity.
   # ~200 examples / (13 targets x 2 stances) ≈ 8 examples per (group, stance) call.
   shots_per_prompt: 8
-  examples_per_language: 200
+  examples_per_language: 600
   temperature: 0.9
   out_path: "data/synthetic/implicit.jsonl"
   # Coverage report from prep — drives target_languages when that list is empty.
