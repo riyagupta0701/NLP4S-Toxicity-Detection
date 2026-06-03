@@ -18,6 +18,7 @@ Role C.
 
 from __future__ import annotations
 
+import hashlib
 import warnings
 from pathlib import Path
 from typing import Any
@@ -59,6 +60,19 @@ def _resolve_example_id(example: Example, idx: int) -> str:
     return example.id or f"mhc-{example.language}-{idx}"
 
 
+def _example_seed(base_seed: int, example_id: str) -> int:
+    """Derive a stable per-example seed from the example's identity.
+
+    Used to seed random few-shot selection so each eval example draws the same
+    demonstrations regardless of its position in the eval list — i.e. results
+    are reproducible across the model x condition passes that re-iterate the
+    same examples. ``hashlib`` (not the salted built-in ``hash``) keeps this
+    stable across processes.
+    """
+    digest = hashlib.sha256(example_id.encode("utf-8")).hexdigest()
+    return base_seed ^ int(digest[:8], 16)
+
+
 def run(
     config: dict[str, Any],
     *,
@@ -86,6 +100,9 @@ def run(
     selection = str(prompting.get("fewshot_selection", "random"))
     temperature = float(prompting.get("temperature", 0.0))
     max_tokens = int(prompting.get("max_tokens", 256))
+    # Per-condition overrides: the explanation condition emits a rationale and
+    # needs more room than no_explanation's bare label.
+    max_tokens_by_condition = prompting.get("max_tokens_by_condition") or {}
     seed = int(prompting.get("seed", 42))
 
     eval_subsample_per_cell = int(prompting.get("eval_subsample_per_cell", 25))
@@ -128,6 +145,9 @@ def run(
             print(f"[llm] running model: {name} ({provider}/{model_id})")
 
             for condition in conditions:
+                cond_max_tokens = int(
+                    max_tokens_by_condition.get(condition, max_tokens)
+                )
                 preds = _run_one(
                     client=client,
                     eval_examples=eval_examples,
@@ -137,7 +157,7 @@ def run(
                     shots=shots,
                     selection=selection,
                     temperature=temperature,
-                    max_tokens=max_tokens,
+                    max_tokens=cond_max_tokens,
                     seed=seed,
                 )
                 predictions.extend(preds)
@@ -169,6 +189,7 @@ def _run_one(
     """One pass of (model x condition) over ``eval_examples``."""
     out: list[Prediction] = []
     for idx, example in enumerate(eval_examples):
+        example_id = _resolve_example_id(example, idx)
         demos = (
             select_demos(
                 selection,
@@ -177,7 +198,7 @@ def _run_one(
                 k=shots,
                 query_target=example.target,
                 query_language=example.language,
-                seed=seed + idx,
+                seed=_example_seed(seed, example_id),
             )
             if shots > 0 and pool
             else []
@@ -192,7 +213,7 @@ def _run_one(
         label, rationale = parse_response(raw, condition)
         out.append(
             Prediction(
-                example_id=_resolve_example_id(example, idx),
+                example_id=example_id,
                 model=model_name,
                 pred_label=label,
                 condition=condition,

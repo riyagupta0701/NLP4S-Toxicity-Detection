@@ -18,7 +18,11 @@ prompting:
   shots: 4                       # 0 => zero-shot
   fewshot_selection: "random"    # random | bm25 | target_group
   temperature: 0.0
-  max_tokens: 256
+  max_tokens: 256                # default; sized for the no_explanation label-only reply
+  # Per-condition overrides — the explanation condition returns a rationale and
+  # needs more room than a bare label, so raise its budget here.
+  max_tokens_by_condition:
+    explanation: 512
   seed: 42
 
   # MHC processed dump (written by `nlp4s prep`). Eval + few-shot pool are
