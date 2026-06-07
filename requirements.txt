@@ -5,6 +5,8 @@ datasets
 scikit-learn
 pandas
 numpy
+langdetect
+openpyxl
 
 # Config / utils
 pyyaml
