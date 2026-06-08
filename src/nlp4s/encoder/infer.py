@@ -61,5 +61,6 @@ def run(config: dict[str, Any]) -> str:
     examples = [ex for ex in read_jsonl(eval_path) if ex.language in TRAIN_LANGS]
 
     predictions = predict(str(model_dir), examples, model_name)
+    predictions_out.mkdir(parents=True, exist_ok=True)
     write_jsonl(predictions_out, predictions)
     return predictions_out
