@@ -58,16 +58,36 @@ class CohereClient(LLMClient):
 class OpenAICompatibleClient(LLMClient):
     """Mistral/Llama backend via an OpenAI-compatible chat endpoint.
 
-    TODO(Role C): construct an openai client pointed at OPENAI_COMPATIBLE_BASE_URL
-    with OPENAI_COMPATIBLE_API_KEY, and implement ``complete`` via chat.completions.
+    Targets a local server (vLLM / Ollama / llama.cpp / LM Studio) by default —
+    set OPENAI_COMPATIBLE_BASE_URL to e.g. ``http://localhost:8000/v1`` and
+    OPENAI_COMPATIBLE_API_KEY to any non-empty value (the openai SDK requires
+    the field; local servers ignore it).
     """
 
     def __init__(self, model_id: str) -> None:
+        import os
+
+        from openai import OpenAI  # local import: heavy dep
+
+        base_url = os.environ.get("OPENAI_COMPATIBLE_BASE_URL")
+        api_key = os.environ.get("OPENAI_COMPATIBLE_API_KEY") or "local"
+        if not base_url:
+            raise RuntimeError(
+                "OPENAI_COMPATIBLE_BASE_URL is not set; point it at your local "
+                "OpenAI-compatible server (e.g. http://localhost:8000/v1)."
+            )
         self.model_id = model_id
-        # TODO(Role C): initialise openai.OpenAI(base_url=..., api_key=...).
+        self._client = OpenAI(base_url=base_url, api_key=api_key)
 
     def complete(self, prompt: str, *, temperature: float = 0.0, max_tokens: int = 512) -> str:
-        raise NotImplementedError("TODO(Role C): implement OpenAI-compatible completion")
+        response = self._client.chat.completions.create(
+            model=self.model_id,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=temperature,
+            max_tokens=max_tokens,
+        )
+        choice = response.choices[0]
+        return choice.message.content or ""
 
 
 def build_client(provider: str, model_id: str) -> LLMClient:

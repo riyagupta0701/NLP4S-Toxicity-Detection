@@ -78,6 +78,7 @@ def to_example(row: dict[str, Any], *, split: str = "test", idx: int | None = No
     example_id = row.get("id")
     if example_id is None and idx is not None:
         example_id = f"mhc-{language}-{idx}"
+    target = row.get("target_ident") or None
     return Example(
         text=text,
         language=language,
@@ -85,6 +86,7 @@ def to_example(row: dict[str, Any], *, split: str = "test", idx: int | None = No
         functionality=functionality,
         split=split,
         id=example_id,
+        target=target,
     )
 
 

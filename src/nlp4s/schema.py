@@ -29,8 +29,10 @@ class Example:
         label: gold label, one of schema.LABELS.
         functionality: MHC functionality label (e.g. "derog_impl_h"); empty
             string for training data that has no functionality annotation.
-        split: dataset split / origin (e.g. "test", "train", "synthetic").
+        split: dataset split / origin (e.g. "test", "train", "synthetic", "pool").
         id: optional stable identifier.
+        target: MHC target-identity group (e.g. "women", "Muslims"); None when
+            the source dataset does not carry one (HASOC, synthetic).
     """
 
     text: str
@@ -39,6 +41,7 @@ class Example:
     functionality: str = ""
     split: str = ""
     id: str | None = None
+    target: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -52,6 +55,7 @@ class Example:
             functionality=d.get("functionality", ""),
             split=d.get("split", ""),
             id=d.get("id"),
+            target=d.get("target"),
         )
 
 

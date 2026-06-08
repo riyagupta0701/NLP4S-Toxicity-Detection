@@ -112,3 +112,22 @@ Each generated example uses the frozen schema with `split="synthetic"`, `functio
 ### Cross-role dependency
 
 Role A waits on **Role B's baseline matrix** before committing on `generation.target_languages`. Until then, the coverage report drives target selection automatically — start with the 8 MHC languages that have no HASOC training data (`ar, nl, fr, it, zh, pl, pt, es`) and revise once the baseline reveals which functionalities × languages most need help.
+
+## Role C — multi-LLM prompting (RQ3)
+
+```bash
+nlp4s llm --config configs/llm.yaml
+```
+
+Prompts API-hosted LLMs over MHC (no fine-tuning) and writes `Prediction` records to `outputs/llm/predictions.jsonl`. Three backends are wired up via `configs/llm.yaml`:
+
+- **Aya-23** — Cohere API (`provider: cohere`, uses `COHERE_API_KEY`).
+- **Mistral-7B** and **Llama-3-8B** — any OpenAI-compatible endpoint (`provider: openai_compatible`, uses `OPENAI_COMPATIBLE_API_KEY` / `OPENAI_COMPATIBLE_BASE_URL`; point it at a local vLLM / Ollama / LM Studio server).
+
+Pipeline:
+
+1. Read `data/processed/mhc.jsonl` (Role A's `prep` output).
+2. Split deterministically into **eval** and a few-shot **pool**, stratified per (language × functionality) cell (`pool_per_cell`); then cap eval per cell (`eval_subsample_per_cell`) for budget. Pool rows are never scored, so there is no demo↔eval leakage. Role A's synthetic implicit data is folded into the pool when present, extending coverage to the 8 MHC languages without HASOC.
+3. For each `model × condition` (`no_explanation`, `explanation`) build prompts — with `shots` few-shot demonstrations selected by `fewshot_selection` (`random` / `bm25` / `target_group`) — call the model, parse the response, and emit predictions.
+
+Key knobs in `configs/llm.yaml`: `shots`, `fewshot_selection`, `conditions`, `max_tokens` (plus `max_tokens_by_condition` to give the explanation condition a larger budget), and `seed`. Every call is cached in `outputs/llm/cache.sqlite` keyed by `(model_id, prompt, temperature, max_tokens)` — delete the file to force re-inference.
