@@ -4,15 +4,17 @@ Role B.
 """
 
 from __future__ import annotations
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
 
 from typing import Any
 
 
 def load_model_and_tokenizer(name: str, num_labels: int) -> tuple[Any, Any]:
-    """Load an XLM-RoBERTa sequence-classification model and its tokenizer.
+    """Load an XLM-RoBERTa sequence-classification model and its tokenizer."""
 
-    TODO(Role B): use transformers
-    ``AutoModelForSequenceClassification.from_pretrained`` and
-    ``AutoTokenizer.from_pretrained``.
-    """
-    raise NotImplementedError("TODO(Role B): implement model/tokenizer loading")
+    tokenizer = AutoTokenizer.from_pretrained(name)
+    model = AutoModelForSequenceClassification.from_pretrained(name, num_labels=num_labels)
+    return model, tokenizer
+    
+    #raise NotImplementedError("TODO(Role B): implement model/tokenizer loading")
