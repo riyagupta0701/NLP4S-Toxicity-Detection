@@ -9,6 +9,10 @@ from typing import Any
 from transformers import pipeline
 from nlp4s.schema import Example, Prediction
 from nlp4s.io_utils import read_jsonl, write_jsonl
+from datasets import load_from_disk
+
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parents[3]
 
 
 def predict(model_dir: str, examples: list[Example], model_name: str) -> list[Prediction]:
@@ -39,24 +43,19 @@ def predict(model_dir: str, examples: list[Example], model_name: str) -> list[Pr
         ))
         
     return predictions
-    #raise NotImplementedError("TODO(Role B): implement encoder inference")
 
 
 def run(config: dict[str, Any]) -> str:
-    """Inference entrypoint: load MHC, predict, write predictions JSONL.
 
-    Returns the predictions output path. """
-
-    eval_path = config["infer"]["eval_path"]
-    predictions_out = config["infer"]["predictions_out"]
-    model_dir = config["train"]["output_dir"]
+    eval_path = PROJECT_ROOT / config["infer"]["eval_path"]
+    predictions_out = PROJECT_ROOT / config["infer"]["predictions_out"]
+    model_dir = PROJECT_ROOT / config["train"]["output_dir"]
     model_name = config["model"]["name"]
-    
-    examples = read_jsonl(eval_path)
+        
+    TRAIN_LANGS = set(config["languages"])
+    examples = [ex for ex in read_jsonl(eval_path) if ex.language in TRAIN_LANGS]
+
     predictions = predict(model_dir, examples, model_name)
-    
-    # Write predictions utilizing standard dict conversion
     write_jsonl(predictions_out, [p.to_dict() for p in predictions])
-    
     return predictions_out
     raise NotImplementedError("TODO(Role B): implement inference entrypoint")
