@@ -1,10 +1,13 @@
 # Core ML / data
 torch
 transformers
+accelerate>=1.1.0
 datasets
 scikit-learn
 pandas
 numpy
+langdetect
+openpyxl
 
 # Config / utils
 pyyaml

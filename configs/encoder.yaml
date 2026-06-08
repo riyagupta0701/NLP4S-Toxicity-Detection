@@ -6,15 +6,18 @@ model:
   num_labels: 2              # binary: hateful / non-hateful
   max_length: 128
 
+languages: ["en", "de", "es", "hi", "zh", "fr", "ar"]
+
 train:
-  data_path: "data/processed/train.jsonl"
+  train_path: data/processed/train_split/hate_train.csv
+  val_path: data/processed/train_split/hate_val.csv
   epochs: 3
   batch_size: 16
   learning_rate: 2.0e-5
   weight_decay: 0.01
   seed: 42
-  output_dir: "outputs/encoder"
+  output_dir: "outputs/encoder_baseline"
 
 infer:
-  eval_path: "data/raw/mhc"          # MHC eval split
-  predictions_out: "outputs/encoder/predictions.jsonl"
+  eval_path: "data/processed/mhc.jsonl"          # MHC eval split eval_path: 
+  predictions_out: "outputs/encoder_out/predictions.jsonl"
