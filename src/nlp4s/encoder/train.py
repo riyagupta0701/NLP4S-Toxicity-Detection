@@ -30,7 +30,7 @@ def compute_metrics(eval_pred):
    
 
 def train(config: dict[str, Any]) -> str:
-    output_dir = config["train"]["output_dir"]
+    output_dir = str(PROJECT_ROOT / config["train"]["output_dir"])
     model_name = config["model"]["name"]
     max_length = config["model"]["max_length"]
     

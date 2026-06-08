@@ -18,11 +18,16 @@ PROJECT_ROOT = Path(__file__).parents[3]
 def predict(model_dir: str, examples: list[Example], model_name: str) -> list[Prediction]:
     """Classify each Example, returning Prediction records (condition=""). """
 
-    device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+    device = torch.device(
+    "cuda" if torch.cuda.is_available() else
+    "mps" if torch.backends.mps.is_available() else
+    "cpu"
+    )
+    print(f"Using device: {device}")
     
     classifier = pipeline(
         "text-classification", 
-        model=model_dir, 
+        model=str(model_dir), 
         tokenizer=model_dir, 
         device=device
     )
@@ -55,7 +60,6 @@ def run(config: dict[str, Any]) -> str:
     TRAIN_LANGS = set(config["languages"])
     examples = [ex for ex in read_jsonl(eval_path) if ex.language in TRAIN_LANGS]
 
-    predictions = predict(model_dir, examples, model_name)
-    write_jsonl(predictions_out, [p.to_dict() for p in predictions])
+    predictions = predict(str(model_dir), examples, model_name)
+    write_jsonl(predictions_out, predictions)
     return predictions_out
-    raise NotImplementedError("TODO(Role B): implement inference entrypoint")

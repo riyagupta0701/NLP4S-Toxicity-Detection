@@ -11,5 +11,5 @@ print("CONFIG_PATH:", CONFIG_PATH)
 with open(CONFIG_PATH) as f:
     config = yaml.safe_load(f)
 
-train.train(config)
+#train.train(config)
 infer.run(config)
