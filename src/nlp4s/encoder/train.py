@@ -14,7 +14,19 @@ import torch
 import pandas as pd
 from pathlib import Path
 
+from sklearn.metrics import accuracy_score, f1_score
+import numpy as np
+
+
 PROJECT_ROOT = Path(__file__).parents[3]
+
+def compute_metrics(eval_pred):
+    logits, labels = eval_pred
+    preds = np.argmax(logits, axis=-1)
+    return {
+        "accuracy": accuracy_score(labels, preds),
+        "f1": f1_score(labels, preds, average="binary"),
+    }
    
 
 def train(config: dict[str, Any]) -> str:
@@ -60,6 +72,7 @@ def train(config: dict[str, Any]) -> str:
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
+        compute_metrics=compute_metrics,
     )
     
     trainer.train()
