@@ -5,11 +5,10 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parents[3]  # src/nlp4s/encoder/run.py → up 3 → root
 CONFIG_PATH  = PROJECT_ROOT / "configs" / "encoder.yaml"
 
-print("PROJECT_ROOT:", PROJECT_ROOT)
-print("CONFIG_PATH:", CONFIG_PATH)
+if __name__ == "__main__":
 
-with open(CONFIG_PATH) as f:
-    config = yaml.safe_load(f)
+    with open(CONFIG_PATH) as f:    
+        config = yaml.safe_load(f)
 
-#train.train(config)
-infer.run(config)
+    train.train(config)
+    infer.run(config)
