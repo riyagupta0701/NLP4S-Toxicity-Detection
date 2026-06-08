@@ -140,6 +140,10 @@ if __name__ == "__main__":
     train_df = pd.concat([hasoc_train, m3h_train, mlma_train], ignore_index=True)
     val_df   = pd.concat([hasoc_val,   m3h_val,   mlma_val],   ignore_index=True)
     
+    TRAIN_LANGS = {"en", "de", "es", "hi", "zh", "fr", "ar"}
+    train_df = train_df[train_df["language"].isin(TRAIN_LANGS)]
+    val_df   = val_df[val_df["language"].isin(TRAIN_LANGS)]
+    
     #shuffle selection
     train_df = train_df.sample(frac=1, random_state=42).reset_index(drop=True)
     val_df   = val_df.sample(frac=1, random_state=42).reset_index(drop=True)
