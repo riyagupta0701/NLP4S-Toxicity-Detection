@@ -20,4 +20,4 @@ train:
 
 infer:
   eval_path: "data/processed/mhc.jsonl"          # MHC eval split eval_path: 
-  predictions_out: "outputs/encoder/predictions.jsonl"
+  predictions_out: "outputs/encoder_out/predictions.jsonl"
