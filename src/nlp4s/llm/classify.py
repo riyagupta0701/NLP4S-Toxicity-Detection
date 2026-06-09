@@ -29,6 +29,7 @@ from nlp4s.llm.client import LLMClient, build_client
 from nlp4s.llm.fewshot import select as select_demos
 from nlp4s.llm.pool import split_mhc, subsample_eval
 from nlp4s.llm.prompts import build_prompt, parse_response
+from nlp4s.llm.prompts import response_format as response_format_for
 from nlp4s.schema import Example, Prediction
 
 _DEFAULT_MHC_PATH = "data/processed/mhc.jsonl"
@@ -100,6 +101,9 @@ def run(
     selection = str(prompting.get("fewshot_selection", "random"))
     temperature = float(prompting.get("temperature", 0.0))
     max_tokens = int(prompting.get("max_tokens", 256))
+    # Structured-output mode for OpenAI-compatible backends (e.g. Ollama). Forces
+    # valid JSON, near-eliminating parse failures / missing explanation fields.
+    json_mode = bool(prompting.get("json_mode", False))
     # Per-condition overrides: the explanation condition emits a rationale and
     # needs more room than no_explanation's bare label.
     max_tokens_by_condition = prompting.get("max_tokens_by_condition") or {}
@@ -130,9 +134,12 @@ def run(
     if shots > 0:
         print(f"[llm] few-shot pool size: {len(pool)} (strategy={selection}, k={shots})")
 
-    factory = client_factory or build_client
+    def _default_factory(provider: str, model_id: str) -> LLMClient:
+        return build_client(provider, model_id, json_mode=json_mode)
+
+    factory = client_factory or _default_factory
     cache = ResponseCache(cache_path)
-    print(f"[llm] cache: {cache_path}")
+    print(f"[llm] cache: {cache_path} (json_mode={json_mode})")
 
     predictions: list[Prediction] = []
     try:
@@ -141,13 +148,20 @@ def run(
             provider = model_cfg["provider"]
             model_id = model_cfg["model_id"]
             inner: LLMClient = factory(provider, model_id)
-            client = CachedLLMClient(inner, cache, model_id=model_id)
+            # Namespace the cache key by mode so json_mode responses never collide
+            # with previously-cached free-form ones for the same (model, prompt).
+            cache_model_id = f"{model_id}|json" if json_mode else model_id
+            client = CachedLLMClient(inner, cache, model_id=cache_model_id)
             print(f"[llm] running model: {name} ({provider}/{model_id})")
 
             for condition in conditions:
                 cond_max_tokens = int(
                     max_tokens_by_condition.get(condition, max_tokens)
                 )
+                # Force a per-condition JSON schema (requires the explanation
+                # field) on backends that support it; no-op for test stubs.
+                if json_mode:
+                    setattr(inner, "response_format", response_format_for(condition))
                 preds = _run_one(
                     client=client,
                     eval_examples=eval_examples,

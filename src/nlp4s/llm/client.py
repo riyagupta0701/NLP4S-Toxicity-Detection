@@ -64,7 +64,7 @@ class OpenAICompatibleClient(LLMClient):
     the field; local servers ignore it).
     """
 
-    def __init__(self, model_id: str) -> None:
+    def __init__(self, model_id: str, *, json_mode: bool = False) -> None:
         import os
 
         from openai import OpenAI  # local import: heavy dep
@@ -77,23 +77,42 @@ class OpenAICompatibleClient(LLMClient):
                 "OpenAI-compatible server (e.g. http://localhost:8000/v1)."
             )
         self.model_id = model_id
+        # When True, request structured JSON output (OpenAI / Ollama
+        # `response_format`). Our prompts already demand a JSON object, so this
+        # forces compliance and near-eliminates parse failures.
+        self.json_mode = json_mode
+        # Optional explicit response_format (a JSON *schema*) that overrides the
+        # plain json_object mode above. Set per-condition by classify.run so the
+        # explanation condition can *require* the explanation field. None => fall
+        # back to json_object (if json_mode) or unconstrained.
+        self.response_format: dict | None = None
         self._client = OpenAI(base_url=base_url, api_key=api_key)
 
     def complete(self, prompt: str, *, temperature: float = 0.0, max_tokens: int = 512) -> str:
+        kwargs: dict = {}
+        if self.response_format is not None:
+            kwargs["response_format"] = self.response_format
+        elif self.json_mode:
+            kwargs["response_format"] = {"type": "json_object"}
         response = self._client.chat.completions.create(
             model=self.model_id,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
             max_tokens=max_tokens,
+            **kwargs,
         )
         choice = response.choices[0]
         return choice.message.content or ""
 
 
-def build_client(provider: str, model_id: str) -> LLMClient:
-    """Factory: map a config ``provider`` string to a client instance."""
+def build_client(provider: str, model_id: str, *, json_mode: bool = False) -> LLMClient:
+    """Factory: map a config ``provider`` string to a client instance.
+
+    ``json_mode`` requests structured JSON output; only the OpenAI-compatible
+    backend honours it (Cohere's Aya already returns clean JSON for our prompts).
+    """
     if provider == "cohere":
         return CohereClient(model_id)
     if provider == "openai_compatible":
-        return OpenAICompatibleClient(model_id)
+        return OpenAICompatibleClient(model_id, json_mode=json_mode)
     raise ValueError(f"Unknown LLM provider: {provider!r}")

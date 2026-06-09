@@ -131,3 +131,27 @@ Pipeline:
 3. For each `model × condition` (`no_explanation`, `explanation`) build prompts — with `shots` few-shot demonstrations selected by `fewshot_selection` (`random` / `bm25` / `target_group`) — call the model, parse the response, and emit predictions.
 
 Key knobs in `configs/llm.yaml`: `shots`, `fewshot_selection`, `conditions`, `max_tokens` (plus `max_tokens_by_condition` to give the explanation condition a larger budget), and `seed`. Every call is cached in `outputs/llm/cache.sqlite` keyed by `(model_id, prompt, temperature, max_tokens)` — delete the file to force re-inference.
+
+### Experiment sweeps
+
+`scripts/run_llm_experiments.sh` runs the full RQ2/RQ3 matrix over local Ollama models — `models × fewshot_selection {random, bm25, target_group} × {no_explanation, explanation}` — loading one model at a time so it stays within 16 GB. Results are merged and re-scored after every `(model, strategy)` leg, so partial runs still leave usable outputs and the response cache makes resuming cheap.
+
+```bash
+scripts/run_llm_experiments.sh [SUBSAMPLE] [STRATEGY ...]
+#   SUBSAMPLE   eval rows per (language × functionality) cell (default 10)
+#   STRATEGY    subset of {random, bm25, target_group} (default: all three)
+```
+
+Per-strategy predictions land in `outputs/llm/pred_<model>_<strategy>.jsonl` and are merged into `outputs/llm/predictions.jsonl`.
+
+### Scoring (stop-gap until Role D's `eval` harness)
+
+Two scripts read a predictions JSONL and write results to disk:
+
+```bash
+python -m scripts.llm_metrics  [predictions.jsonl] [out_stem]   # default outputs/llm/predictions.jsonl outputs/llm/metrics
+python scripts/explanation_quality.py [predictions.jsonl] [out_stem]
+```
+
+- **`llm_metrics`** joins predictions to `data/processed/mhc.jsonl` and reports, per `(model, condition)`, overall accuracy plus the explicit / implicit / control breakdown and a JSON-formatting health metric. Emits a CSV (machine-readable) and a TXT table (human-readable).
+- **`explanation_quality`** (RQ2.3, reference-free) scores each generated rationale with multilingual **BERTScore-F1** against the input text (a groundedness proxy — MHC carries no gold rationales) and relates quality to classification correctness via point-biserial correlation, split implicit vs explicit. Requires `bert-score` and `scipy`.

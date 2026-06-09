@@ -2,15 +2,17 @@
 # Consumed by nlp4s.llm.*
 
 models:
+  # All three routed through a local Ollama server (OpenAI-compatible /v1).
+  # model_id must match the pulled Ollama tag exactly (`ollama list`).
   - name: "aya-23"
-    provider: "cohere"          # uses COHERE_API_KEY
-    model_id: "c4ai-aya-23-8b"
+    provider: "openai_compatible"
+    model_id: "aya:8b-23"
   - name: "mistral-7b"
     provider: "openai_compatible"  # uses OPENAI_COMPATIBLE_* env vars
-    model_id: "mistral-7b-instruct"
+    model_id: "mistral:7b-instruct"
   - name: "llama-3-8b"
     provider: "openai_compatible"
-    model_id: "llama-3-8b-instruct"
+    model_id: "llama3:8b"        # Ollama's 8B tag is the Llama-3 8B Instruct model
 
 prompting:
   # Conditions to run for RQ3.
@@ -18,6 +20,7 @@ prompting:
   shots: 4                       # 0 => zero-shot
   fewshot_selection: "random"    # random | bm25 | target_group
   temperature: 0.0
+  json_mode: true                # force structured JSON (Ollama/OpenAI-compatible); kills parse failures
   max_tokens: 256                # default; sized for the no_explanation label-only reply
   # Per-condition overrides — the explanation condition returns a rationale and
   # needs more room than a bare label, so raise its budget here.
@@ -33,8 +36,10 @@ prompting:
   synthetic_path: "data/synthetic/implicit.jsonl"
 
   # Stratified split + subsampling — cap per (language x functionality) cell.
+  # Lowered for a tractable local Ollama run (~11 langs x 6 funcs x 3 x 3 models
+  # x 2 conditions). Raise back toward 25 for a full benchmark once it works.
   pool_per_cell: 5
-  eval_subsample_per_cell: 25
+  eval_subsample_per_cell: 3
 
   # On-disk response cache so prompt iteration does not re-charge for unchanged calls.
   cache_path: "outputs/llm/cache.sqlite"

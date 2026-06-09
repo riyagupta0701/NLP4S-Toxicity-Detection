@@ -1,0 +1,1056 @@
+{"example_id": "mhc-ar-304", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-345", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-417", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-290", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-412", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-297", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-356", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-379", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-473", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-425", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-516", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-475", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-438", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-463", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-503", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-429", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-167", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-155", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-200", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-217", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-247", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-142", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-190", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-152", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1016", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-977", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1044", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1002", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1050", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1071", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-965", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1048", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1124", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1104", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1150", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1120", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1118", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1170", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1143", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1174", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-860", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-927", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-916", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-903", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-865", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-906", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-858", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-921", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7268", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7353", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7266", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7244", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7230", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7343", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7265", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7280", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7390", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7493", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7374", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7395", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7429", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7468", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7481", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7416", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7183", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7187", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7140", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7194", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7093", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7139", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7175", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7215", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8007", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7926", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8000", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7933", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7969", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8031", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7927", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8014", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8147", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8148", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8114", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8063", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8111", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8141", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8105", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8091", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7881", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7907", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7841", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7851", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7854", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7848", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7904", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7856", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10931", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10996", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10905", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10898", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10972", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10922", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10966", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10875", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11141", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11055", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11111", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11062", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11090", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11107", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11029", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11038", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10764", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10762", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10753", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10736", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10779", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10758", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10733", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10803", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11804", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11802", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11714", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11800", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11726", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11813", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11805", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11688", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11869", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11860", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11894", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11889", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11828", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11876", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11903", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11829", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11566", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11564", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11546", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11485", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11453", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11477", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11469", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11511", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36977", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36920", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36848", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36965", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36955", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36845", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36891", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36972", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37008", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37033", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37101", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37064", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37013", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36996", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37065", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37107", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36808", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36806", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36778", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36783", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36838", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36796", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36758", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36733", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37601", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37628", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37678", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37581", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37571", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37685", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37670", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37595", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37780", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37732", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37785", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37791", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37701", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37754", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37742", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37706", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37466", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37426", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37504", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37481", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37484", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37493", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37430", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37421", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14649", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14661", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14678", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14622", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14602", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14666", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14724", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14700", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14818", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14785", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14866", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14849", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14812", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14841", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14823", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14783", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14545", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14465", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14576", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14573", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14539", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14587", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14522", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14467", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15390", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15393", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15405", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15355", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15446", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15379", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15409", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15443", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15500", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15527", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15493", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15553", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15545", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15495", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15477", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15488", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15255", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15188", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15244", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15240", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15285", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15220", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15203", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15174", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18358", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18348", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18396", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18393", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18344", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18415", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18445", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18352", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18507", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18489", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18564", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18587", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18478", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18566", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18504", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18467", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18191", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18255", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18247", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18186", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18251", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18228", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18305", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18260", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19090", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19067", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19048", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19081", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18970", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19075", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19017", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19027", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19135", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19130", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19146", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19174", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19125", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19178", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19131", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19197", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18953", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18945", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18956", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18938", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18893", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18948", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18968", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18966", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21951", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21887", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21973", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21936", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21915", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21922", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21897", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21989", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22125", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22138", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22041", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22069", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22083", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22074", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22093", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22090", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21782", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21778", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21752", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21815", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21772", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21851", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21767", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21763", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22709", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22666", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22631", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22589", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22604", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22665", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22614", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22588", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22728", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22776", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22777", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22772", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22796", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22818", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22785", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22727", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22556", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22468", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22509", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22513", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22554", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22474", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22524", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22471", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25712", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25667", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25694", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25696", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25580", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25615", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25681", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25630", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25789", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25807", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25832", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25751", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25781", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25812", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25761", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25716", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25437", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25472", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25528", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25569", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25456", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25454", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25504", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25435", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26427", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26348", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26320", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26354", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26353", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26437", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26418", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26429", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26452", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26444", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26491", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26530", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26489", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26539", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26537", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26532", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26280", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26193", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26234", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26208", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26252", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26158", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26190", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26242", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29383", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29377", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29403", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29459", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29450", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29418", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29474", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29352", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29559", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29531", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29482", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29509", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29575", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29521", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29517", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29603", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29307", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29330", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29326", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29305", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29301", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29287", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29223", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29220", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30203", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30089", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30141", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30167", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30182", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30177", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30147", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30211", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30256", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30264", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30273", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30238", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30318", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30322", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30294", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30235", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30011", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29990", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30056", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30012", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30041", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29961", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29914", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29991", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33255", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33289", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33276", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33291", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33218", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33202", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33231", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33285", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33323", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33294", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33342", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33429", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33359", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33418", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33403", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33364", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33024", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33108", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33111", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33047", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33029", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33150", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33075", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33123", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33896", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33864", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33908", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33874", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33975", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33913", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33972", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33979", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34073", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34003", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34089", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34047", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34010", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34050", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34056", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34079", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33783", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33792", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33789", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33718", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33742", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33811", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33801", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33796", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3915", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3894", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3964", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3875", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3971", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3874", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3928", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3977", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4004", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4083", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4098", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4096", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4092", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4000", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3993", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4060", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3729", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3713", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3781", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3819", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3799", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3735", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3787", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3812", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4694", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4621", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4646", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4650", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4614", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4610", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4641", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4670", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4713", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4719", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4786", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4794", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4781", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4750", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4772", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4796", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4435", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4544", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4432", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4504", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4465", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4505", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4527", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4476", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-304", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual based on their race."}
+{"example_id": "mhc-ar-345", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward the LGBTQ+ community."}
+{"example_id": "mhc-ar-417", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-290", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group based on skin color."}
+{"example_id": "mhc-ar-412", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group of people."}
+{"example_id": "mhc-ar-297", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group based on their race."}
+{"example_id": "mhc-ar-356", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group, using a negative comparison."}
+{"example_id": "mhc-ar-379", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-473", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This text expresses hostility and derision toward the Jewish community, suggesting that their lives are less valuable than that of insects."}
+{"example_id": "mhc-ar-425", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (people with disabilities) by suggesting they belong in a zoo, which is an insulting and derogatory comparison."}
+{"example_id": "mhc-ar-516", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward people with disabilities, implying that their presence in government will lead to the destruction of the country."}
+{"example_id": "mhc-ar-475", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward refugees, implying that they are less valuable than insects."}
+{"example_id": "mhc-ar-438", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative stereotype about a group (Jews) and suggests that members of the group are less intelligent than others."}
+{"example_id": "mhc-ar-463", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group of people (transgender individuals)."}
+{"example_id": "mhc-ar-503", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group of people (refugees) and suggests they should be imprisoned in cages."}
+{"example_id": "mhc-ar-429", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the LGBTQ+ community by suggesting that they are inferior and in need of special treatment."}
+{"example_id": "mhc-ar-167", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (refugees) and implies that they are disgusting."}
+{"example_id": "mhc-ar-155", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a derogatory slur targeting a group."}
+{"example_id": "mhc-ar-200", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-217", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group based on their perceived nature."}
+{"example_id": "mhc-ar-247", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and negative stereotypes toward a group (the LGBT+ community)."}
+{"example_id": "mhc-ar-142", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward the LGBTQ+ community."}
+{"example_id": "mhc-ar-190", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-ar-152", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-1016", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (the 'سود' or 'black' people) and suggests that their ideas are inherently ridiculous."}
+{"example_id": "mhc-ar-977", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group."}
+{"example_id": "mhc-ar-1044", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group, suggesting they are inherently evil."}
+{"example_id": "mhc-ar-1002", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-1050", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (the LGBTQ+ community)."}
+{"example_id": "mhc-ar-1071", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-ar-965", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses deragatory language and hostility toward the transgender community."}
+{"example_id": "mhc-ar-1048", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (women)."}
+{"example_id": "mhc-ar-1124", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-ar-1104", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, or a negative stereotype toward any group."}
+{"example_id": "mhc-ar-1150", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-ar-1120", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-ar-1118", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-ar-1170", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-ar-1143", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a wish to harm others, which is a form of hostility and negative sentiment."}
+{"example_id": "mhc-ar-1174", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express any hostility, derision, or negative stereotypes towards any group."}
+{"example_id": "mhc-ar-860", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual based on their gender identity."}
+{"example_id": "mhc-ar-927", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-916", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-903", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-ar-865", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-ar-906", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group, using an offensive term 'mukhannath' which is often used to demean and dehumanize individuals in the Middle East."}
+{"example_id": "mhc-ar-858", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a racial slur and expresses hostility toward an individual based on their race."}
+{"example_id": "mhc-ar-921", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (prostitutes) and implies that they are inherently bad due to their profession."}
+{"example_id": "mhc-de-7268", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es verwendet ein abwertendes und dehumanisierendes Stereotyp, um eine Gruppe zu beschreiben."}
+{"example_id": "mhc-de-7353", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (refugees) and implies that they are a negative burden to society."}
+{"example_id": "mhc-de-7266", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es verwendet ein negativer Stereotyp und eine abwertende Bezeichnung für eine Gruppe."}
+{"example_id": "mhc-de-7244", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es expresses hostility and derogation toward a group (schwule Menschen)."}
+{"example_id": "mhc-de-7230", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text uses a derogatory slur to refer to gay people, expressing hostility and derision towards them."}
+{"example_id": "mhc-de-7343", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es drückt eine feindselige und abwertende Einstellung gegenüber einer bestimmten Gruppe aus."}
+{"example_id": "mhc-de-7265", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text uses a derogatory slur to refer to a group and expresses implicit bias towards them."}
+{"example_id": "mhc-de-7280", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es drückt Feindseligkeit und eine negative Stereotypisierung gegenüber einer Gruppe aus."}
+{"example_id": "mhc-de-7390", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-de-7493", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the transgender community."}
+{"example_id": "mhc-de-7374", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es drückt Feindseligkeit oder abwertende Einstellungen gegenüber einer Gruppe aus."}
+{"example_id": "mhc-de-7395", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-de-7429", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "This statement does not target any group and does not express hostility or derogation."}
+{"example_id": "mhc-de-7468", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (people with disabilities) and implies that they are a negative force that will ruin the country."}
+{"example_id": "mhc-de-7481", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-de-7416", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derision and dehumanization towards refugees, suggesting that they are worthless in comparison to the speaker's shoes."}
+{"example_id": "mhc-de-7183", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es drückt Feindseligkeit oder eine negative Stereotypisierung gegenüber einer Gruppe aus."}
+{"example_id": "mhc-de-7187", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-de-7140", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group based on their race."}
+{"example_id": "mhc-de-7194", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (transpeople) and implies that they are inferior."}
+{"example_id": "mhc-de-7093", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es verwendet ein abwertendes und beleidigendes Adjektiv, um eine negative Einstellung gegenüber einer bestimmten Gruppe auszudrücken."}
+{"example_id": "mhc-de-7139", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (LGBTQ+)."}
+{"example_id": "mhc-de-7175", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derrogation toward a group based on race."}
+{"example_id": "mhc-de-7215", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (transpeople) and uses a negative and derogatory slur."}
+{"example_id": "mhc-de-8007", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (Black people) using offensive language."}
+{"example_id": "mhc-de-7926", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (refugees)."}
+{"example_id": "mhc-de-8000", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es drückt Feindseligkeit oder Abneigung gegenüber einer bestimmten Gruppe aus."}
+{"example_id": "mhc-de-7933", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es drückt Feindseligkeit und Abwertung gegenüber einer Gruppe aus."}
+{"example_id": "mhc-de-7969", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward women."}
+{"example_id": "mhc-de-8031", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es drückt Feindseligkeit und Negativstereotypen gegenüber einer Gruppe aus."}
+{"example_id": "mhc-de-7927", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es drückt Feindseligkeit und Abwertung gegenüber einer Gruppe aus."}
+{"example_id": "mhc-de-8014", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (blacks) and uses a negative slur."}
+{"example_id": "mhc-de-8147", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-de-8148", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses self-derogation in a negative way, which can be perceived as hostility towards oneself."}
+{"example_id": "mhc-de-8114", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "There is no explicit targeting of a group or expression of hostility/derogation."}
+{"example_id": "mhc-de-8063", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, or negative stereotypes towards any group."}
+{"example_id": "mhc-de-8111", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derision toward a group, in this case, those who 'believe' in something that is perceived as false or misleading."}
+{"example_id": "mhc-de-8141", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not attack, demean, or stereotyp any group and does not contain profanity."}
+{"example_id": "mhc-de-8105", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or negative stereotypes toward any group."}
+{"example_id": "mhc-de-8091", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains vulgar language but does not target any specific group with hostile or derogatory remarks."}
+{"example_id": "mhc-de-7881", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a derogatory slur targeting a specific group (LGBTQ+)."}
+{"example_id": "mhc-de-7907", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of the n-word targets a racial group and expresses hostility and derogation toward its members."}
+{"example_id": "mhc-de-7841", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text contains a derogatory slur targeting women."}
+{"example_id": "mhc-de-7851", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (Jews) and uses a derogatory slur."}
+{"example_id": "mhc-de-7854", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es ist eine abwertende Bezeichnung für eine Person, die als schwach oder unzuverlässig angesehen wird."}
+{"example_id": "mhc-de-7848", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Es verwendet einen rassistischen Begriff ("}
+{"example_id": "mhc-de-7904", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (trans people) and implies that they are a negative presence in society."}
+{"example_id": "mhc-de-7856", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual based on their gender identity."}
+{"example_id": "mhc-en-10931", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward gay people as a group."}
+{"example_id": "mhc-en-10996", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward disabled people as a group."}
+{"example_id": "mhc-en-10905", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text uses derogatory language to refer to disabled people, expressing a negative stereotype and derision."}
+{"example_id": "mhc-en-10898", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual with a disability."}
+{"example_id": "mhc-en-10972", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward the trans community."}
+{"example_id": "mhc-en-10922", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women as a group."}
+{"example_id": "mhc-en-10966", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group (gay people) and uses a negative stereotype to demean them."}
+{"example_id": "mhc-en-10875", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward gay people."}
+{"example_id": "mhc-en-11141", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a strong negative sentiment and derisory attitude towards gay people."}
+{"example_id": "mhc-en-11055", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derision and hostility toward women through a negative generalization."}
+{"example_id": "mhc-en-11111", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward women."}
+{"example_id": "mhc-en-11062", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative stereotype and derision towards women, suggesting that their lives are less valuable than those of insects."}
+{"example_id": "mhc-en-11090", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward women, implying that they are dangerous and should be confined."}
+{"example_id": "mhc-en-11107", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward Black people as a group, implying that their presence in government will be detrimental to the country."}
+{"example_id": "mhc-en-11029", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative stereotype about gay people and compares them negatively to a dog."}
+{"example_id": "mhc-en-11038", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-en-10764", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derisory and negative views of Black people, suggesting they are inherently 'revolting', which is a derogatory and negative stereotype."}
+{"example_id": "mhc-en-10762", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derisory and negative views of trans people, implying that they are inherently repulsive."}
+{"example_id": "mhc-en-10753", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward immigrants."}
+{"example_id": "mhc-en-10736", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-en-10779", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward disabled people as a group."}
+{"example_id": "mhc-en-10758", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative attitude and derisory tone towards disabled people, implying that they are unappealing or distasteful."}
+{"example_id": "mhc-en-10733", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women as a group."}
+{"example_id": "mhc-en-10803", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women as a group."}
+{"example_id": "mhc-en-11804", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (disabled people) and implies that they are inherently annoying."}
+{"example_id": "mhc-en-11802", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (gay people) and implies a negative stereotype about their nature."}
+{"example_id": "mhc-en-11714", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-en-11800", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward women."}
+{"example_id": "mhc-en-11726", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward Black people, implying that they are mentally ill or defective."}
+{"example_id": "mhc-en-11813", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (immigrants) and uses a slur."}
+{"example_id": "mhc-en-11805", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward Muslims, using a negative stereotype and a slur."}
+{"example_id": "mhc-en-11688", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (women)."}
+{"example_id": "mhc-en-11869", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text is an expression of personal opinion and does not target any specific group for hostility or derision."}
+{"example_id": "mhc-en-11860", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains profanity, but does not target any group for hostility, derision, or negative stereotyping."}
+{"example_id": "mhc-en-11894", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains profanity, but does not target any specific group with hostility or derogatory language."}
+{"example_id": "mhc-en-11889", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text expresses frustration but does not target a specific group for hostility or derision."}
+{"example_id": "mhc-en-11828", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains profanity but does not target any specific group with hostile or derogatory language."}
+{"example_id": "mhc-en-11876", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It contains profanity but does not target any group for hostility, derision, or stereotyping."}
+{"example_id": "mhc-en-11903", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward the speaker's own group (himself) through the use of a negative slur ('scumbag')."}
+{"example_id": "mhc-en-11829", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains profanity but does not target any specific group for hostility or derision."}
+{"example_id": "mhc-en-11566", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward a group (Jihadis) based on their religious affiliation."}
+{"example_id": "mhc-en-11564", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The term 'mongs' is a derogatory slang word for men, and the text expresses hostility and derision toward them."}
+{"example_id": "mhc-en-11546", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The term 'mongs' is a derogatory slang word for people with intellectual disabilities, expressing hostility and derogation towards this group."}
+{"example_id": "mhc-en-11485", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of the word 'faggots' is a derogatory slur targeting individuals who are homosexual or perceived to be homosexual."}
+{"example_id": "mhc-en-11453", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The term 'coon' is often used as a derogatory slur for African Americans."}
+{"example_id": "mhc-en-11477", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The term 'camel fucker' is a derogatory and hostile slur targeting an individual or a group of people associated with camels."}
+{"example_id": "mhc-en-11469", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The term 'queer' is often used as a negative label and can be considered a slur by some individuals."}
+{"example_id": "mhc-en-11511", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group based on religious affiliation."}
+{"example_id": "mhc-es-36977", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward women, implying that they are less than human."}
+{"example_id": "mhc-es-36920", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward people with disabilities, implying that they are of less value than rats."}
+{"example_id": "mhc-es-36848", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This text expresses hostility and derogation toward a group (indigenous people) by calling them 'scum'."}
+{"example_id": "mhc-es-36965", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (gays) and implies that they are detrimental to society."}
+{"example_id": "mhc-es-36955", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-es-36845", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-es-36891", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (Jews)."}
+{"example_id": "mhc-es-36972", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses dehumanization and hostility toward a group."}
+{"example_id": "mhc-es-37008", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-es-37033", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation toward a group (women) and implies that they are inferior or unimportant compared to something else (the dirt under the speaker's shoe)."}
+{"example_id": "mhc-es-37101", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Expreses hostility and negative stereotypes toward Jews."}
+{"example_id": "mhc-es-37064", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the transgender community, implying that they are dangerous or need to be contained."}
+{"example_id": "mhc-es-37013", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (negros) and implies that they are less than human, worthy only of being thrown away like trash."}
+{"example_id": "mhc-es-36996", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward Jewish people, implying that they are inferior and not worthy of medical care from human doctors."}
+{"example_id": "mhc-es-37065", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group, implying that they are inferior and should be confined."}
+{"example_id": "mhc-es-37107", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and negative stereotypes toward indigenous people."}
+{"example_id": "mhc-es-36808", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-es-36806", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-es-36778", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-es-36783", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (gays) and implies that they are inherently wild or uncivilized."}
+{"example_id": "mhc-es-36838", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-es-36796", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative stereotype about a group based on their race."}
+{"example_id": "mhc-es-36758", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (Jews) and uses a negative stereotype."}
+{"example_id": "mhc-es-36733", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-es-37601", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward women, implying that they should be silent."}
+{"example_id": "mhc-es-37628", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (disables people) by calling them 'miserable human beings' and implying they are inherently inferior."}
+{"example_id": "mhc-es-37678", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This text expresses hostility and derogatory language towards women as a group."}
+{"example_id": "mhc-es-37581", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group, calling for their exclusion from the country."}
+{"example_id": "mhc-es-37571", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This text expresses strong hostility and derogatory language towards Jews as a group."}
+{"example_id": "mhc-es-37685", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward women."}
+{"example_id": "mhc-es-37670", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and negative stereotypes toward a group."}
+{"example_id": "mhc-es-37595", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group (negros) and uses negative stereotypes and slurs."}
+{"example_id": "mhc-es-37780", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text is an expression of self-criticism and does not target any group for hostility or derogation."}
+{"example_id": "mhc-es-37732", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains profanity but does not target any specific group with hostile or derogatory language."}
+{"example_id": "mhc-es-37785", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotypically describe any group."}
+{"example_id": "mhc-es-37791", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text contains a self-reference as a 'tarado', which can be considered a derogatory term in Spanish, targeting the speaker himself."}
+{"example_id": "mhc-es-37701", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains strong language but does not target any group with hostile or derogatory language."}
+{"example_id": "mhc-es-37754", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express any hostility, derogation, or negative stereotypes towards any group."}
+{"example_id": "mhc-es-37742", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It is an expression of enthusiasm without targeting any group."}
+{"example_id": "mhc-es-37706", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains profanity but does not target a specific group with hostile or derogatory language."}
+{"example_id": "mhc-es-37466", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual, implying they are 'subnormal'."}
+{"example_id": "mhc-es-37426", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It contains a derogatory slur targeting an individual or a group."}
+{"example_id": "mhc-es-37504", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "No expresses hostility, derogation, or a negative stereotype toward any group."}
+{"example_id": "mhc-es-37481", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a derogatory term and expresses hostility toward a group."}
+{"example_id": "mhc-es-37484", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of the word 'perras' is a derogatory term for women and expresses hostility and derogation towards them."}
+{"example_id": "mhc-es-37493", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation toward an individual based on their perceived social status or appearance."}
+{"example_id": "mhc-es-37430", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual based on their gender identity."}
+{"example_id": "mhc-es-37421", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward an individual, implying that they are of low intelligence."}
+{"example_id": "mhc-fr-14649", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward refugees, implying they are inferior or unwelcome."}
+{"example_id": "mhc-fr-14661", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the disabled community, implying that they are inferior."}
+{"example_id": "mhc-fr-14678", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward women as a group."}
+{"example_id": "mhc-fr-14622", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women as a group."}
+{"example_id": "mhc-fr-14602", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (trans people)."}
+{"example_id": "mhc-fr-14666", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (homos) and implies that they are harmful."}
+{"example_id": "mhc-fr-14724", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward people with disabilities, implying that they are a negative force in society."}
+{"example_id": "mhc-fr-14700", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the trans community, implying that they are beyond redemption."}
+{"example_id": "mhc-fr-14818", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward women, implying that they should be confined and treated as less than human."}
+{"example_id": "mhc-fr-14785", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (homos) and implies that their lives are less valuable than the dirt under the speaker's feet."}
+{"example_id": "mhc-fr-14866", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group (women) and implies that they would be better off dead."}
+{"example_id": "mhc-fr-14849", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision and hostility toward people with disabilities."}
+{"example_id": "mhc-fr-14812", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the transgender community."}
+{"example_id": "mhc-fr-14841", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision and hostility toward a group based on race."}
+{"example_id": "mhc-fr-14823", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward Muslims as a group, implying that they should be confined in cages."}
+{"example_id": "mhc-fr-14783", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward women through the use of profanity and negative stereotypes."}
+{"example_id": "mhc-fr-14545", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group (trans people) by implying they are inherently violent and cruel."}
+{"example_id": "mhc-fr-14465", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (handicapped people)."}
+{"example_id": "mhc-fr-14576", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward a group (blacks) and conveys a negative stereotype about their intelligence."}
+{"example_id": "mhc-fr-14573", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (women) and reinforces negative stereotypes about them."}
+{"example_id": "mhc-fr-14539", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-fr-14587", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward women, implying that they are inherently stupid."}
+{"example_id": "mhc-fr-14522", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-fr-14467", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-fr-15390", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and negative stereotypes toward refugees as a group."}
+{"example_id": "mhc-fr-15393", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-fr-15405", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (women) and their members (you)."}
+{"example_id": "mhc-fr-15355", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This text expresses hostility and derisory language towards refugees, suggesting they are unwelcome and should be rejected."}
+{"example_id": "mhc-fr-15446", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "There is no explicit expression of hostility, derogation, or stereotyping targeting a group."}
+{"example_id": "mhc-fr-15379", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (LGBTQ+)."}
+{"example_id": "mhc-fr-15409", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group with a disability."}
+{"example_id": "mhc-fr-15443", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group based on religion."}
+{"example_id": "mhc-fr-15500", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of the word 'merdique' is insulting and can be considered hateful towards a specific group or individual."}
+{"example_id": "mhc-fr-15527", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or negative stereotypes towards any group."}
+{"example_id": "mhc-fr-15493", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of the phrase 'putain' (which can be translated as 'bitch') to refer to a girl expresses hostility and derogation towards women."}
+{"example_id": "mhc-fr-15553", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express any hostility, derision, or negative stereotypes towards any group."}
+{"example_id": "mhc-fr-15545", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains self-deprecating humor and does not attack or demean any group."}
+{"example_id": "mhc-fr-15495", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text expresses frustration but does not target any specific group with negative stereotypes or hostility."}
+{"example_id": "mhc-fr-15477", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or derogatory language towards any group."}
+{"example_id": "mhc-fr-15488", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or negative stereotypes towards any group."}
+{"example_id": "mhc-fr-15255", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text attacks an individual with a derogatory term and implies they are of low value."}
+{"example_id": "mhc-fr-15188", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual."}
+{"example_id": "mhc-fr-15244", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of the word 'négro' is derogatory and dehumanizing towards members of the Black community."}
+{"example_id": "mhc-fr-15240", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-fr-15285", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "No clear hostility, derision, or stereotyping towards any group."}
+{"example_id": "mhc-fr-15220", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-fr-15203", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text contains a derogatory term and expresses hostility toward an individual."}
+{"example_id": "mhc-fr-15174", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of the word 'nègresse', which is a derogatory term for a black woman, expresses hostility and derogation toward a group."}
+{"example_id": "mhc-hi-18358", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18348", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18396", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women."}
+{"example_id": "mhc-hi-18393", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (muslims) and may also convey a negative stereotype."}
+{"example_id": "mhc-hi-18344", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (muslims) and uses a negative stereotype."}
+{"example_id": "mhc-hi-18415", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express any hostility, derogation, or negative stereotypes towards any group."}
+{"example_id": "mhc-hi-18445", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derisory and hostile language towards the group 'hijra'."}
+{"example_id": "mhc-hi-18352", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18507", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18489", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward the gay community."}
+{"example_id": "mhc-hi-18564", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derision toward women."}
+{"example_id": "mhc-hi-18587", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18478", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18566", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18504", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative view or stereotype of the Assamese people, suggesting that they are less worthy or valuable than another group."}
+{"example_id": "mhc-hi-18467", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "There is no expression of hostility or derision towards any group."}
+{"example_id": "mhc-hi-18191", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18255", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18247", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward the 'shudra' community."}
+{"example_id": "mhc-hi-18186", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-hi-18251", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward LGBTQ+ individuals."}
+{"example_id": "mhc-hi-18228", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group."}
+{"example_id": "mhc-hi-18305", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward the group 'hijra' by calling them 'bevkoof', which can be interpreted as a negative stereotype."}
+{"example_id": "mhc-hi-18260", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision or a negative stereotype toward Muslims."}
+{"example_id": "mhc-hi-19090", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group (gay people)."}
+{"example_id": "mhc-hi-19067", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-19048", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-19081", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-hi-18970", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward the gay community."}
+{"example_id": "mhc-hi-19075", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-19017", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-19027", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This text expresses hostility and derision toward the LGBTQ+ community by comparing their 'gay life' to a 'tatti', which is an insulting term in Hindi."}
+{"example_id": "mhc-hi-19135", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-hi-19130", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or derision towards any group and does not contain stereotypes or slurs."}
+{"example_id": "mhc-hi-19146", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses a positive sentiment and mutual respect between two individuals."}
+{"example_id": "mhc-hi-19174", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not attack or demean any group and does not express hostility or negative stereotypes."}
+{"example_id": "mhc-hi-19125", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "There is no explicit targeting of any group with hostility, derogation, or dehumanization."}
+{"example_id": "mhc-hi-19178", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express any hostility or negative stereotypes towards a group."}
+{"example_id": "mhc-hi-19131", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-hi-19197", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not target any group for hostility, derogation, or negative stereotyping."}
+{"example_id": "mhc-hi-18953", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward 'kinnar' (transgender individuals)."}
+{"example_id": "mhc-hi-18945", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18956", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-hi-18938", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18893", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotypically describe a group."}
+{"example_id": "mhc-hi-18948", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18968", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "There is no expression of hostility, derogation, or stereotyping targeting any group."}
+{"example_id": "mhc-hi-18966", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-it-21951", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward immigrants, implying that they are a negative presence."}
+{"example_id": "mhc-it-21887", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a derogatory slur targeting a group and expresses hostility toward them."}
+{"example_id": "mhc-it-21973", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative bias and dehumanization of women."}
+{"example_id": "mhc-it-21936", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group, using a derogatory term."}
+{"example_id": "mhc-it-21915", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-it-21922", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and negative stereotypes toward the Muslim community as a whole."}
+{"example_id": "mhc-it-21897", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group based on their race."}
+{"example_id": "mhc-it-21989", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward the transgender community."}
+{"example_id": "mhc-it-22125", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward Muslims as a group."}
+{"example_id": "mhc-it-22138", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Esprime ostilità o una negativa stereotipizzazione nei confronti di un gruppo."}
+{"example_id": "mhc-it-22041", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward Muslims."}
+{"example_id": "mhc-it-22069", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, or negative stereotypes toward any group."}
+{"example_id": "mhc-it-22083", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or derision towards any group and does not involve any negative stereotypes or slurs."}
+{"example_id": "mhc-it-22074", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward the LGBTQ+ community by implying that the life of an insect is more valuable than that of a gay person."}
+{"example_id": "mhc-it-22093", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative stereotype and derision toward people of color, equating them to a dead mouse."}
+{"example_id": "mhc-it-22090", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Esprime una deroga o uno stereotipo negativo nei confronti di un gruppo."}
+{"example_id": "mhc-it-21782", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-it-21778", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward people of color."}
+{"example_id": "mhc-it-21752", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-it-21815", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and negative stereotyping toward a group (gay people)."}
+{"example_id": "mhc-it-21772", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derision and hostility toward transgender individuals, suggesting they are repulsive."}
+{"example_id": "mhc-it-21851", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward individuals with disabilities, which is a form of negative stereotyping."}
+{"example_id": "mhc-it-21767", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text uses an offensive term ("}
+{"example_id": "mhc-it-21763", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-it-22709", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group based on skin color."}
+{"example_id": "mhc-it-22666", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derision and hostility toward women, implying that ideas from women are inherently worthless."}
+{"example_id": "mhc-it-22631", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Esprime ostilità e un negativo stereotipo nei confronti delle donne."}
+{"example_id": "mhc-it-22589", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-it-22604", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This text expresses a strong hostile sentiment towards people of color, implying that they are worthless and should be ridiculed indefinitely."}
+{"example_id": "mhc-it-22665", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward immigrants, implying that any idea coming from them is necessarily bad or stupid."}
+{"example_id": "mhc-it-22614", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward people with disabilities, implying that they are worthless and should not be included in society."}
+{"example_id": "mhc-it-22588", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It contains profanity and a negative stereotype toward a group."}
+{"example_id": "mhc-it-22728", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It is an expression of frustration rather than hostility towards an individual."}
+{"example_id": "mhc-it-22776", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation toward a group (in this case, the speaker's past self) by using an offensive term."}
+{"example_id": "mhc-it-22777", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group (in this case, implying that the target of the text is 'stupid' or 'idiotic')."}
+{"example_id": "mhc-it-22772", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not attack or demean any group and does not contain stereotypes."}
+{"example_id": "mhc-it-22796", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text contains a slur targeting a specific group (people with disabilities) and expresses hostility through the use of derogatory language."}
+{"example_id": "mhc-it-22818", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward an individual with the slur 'testa di cazzo'."}
+{"example_id": "mhc-it-22785", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express any hostility or negative stereotypes towards any group."}
+{"example_id": "mhc-it-22727", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "Profanity is used in an expression of enthusiasm and does not target any specific group."}
+{"example_id": "mhc-it-22556", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-it-22468", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Esprime ostilità o derisione nei confronti di un gruppo."}
+{"example_id": "mhc-it-22509", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text is an expression of frustration, but does not target any group with hate speech."}
+{"example_id": "mhc-it-22513", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of profanity and derogatory language towards an entire group (women) is hostile and demeaning."}
+{"example_id": "mhc-it-22554", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text uses vulgar language to refer to people in general, and does not target any specific group with hostility or derogation."}
+{"example_id": "mhc-it-22474", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (i.e., 'ricchione', which can be interpreted as a derogatory term for someone of low social economic status)."}
+{"example_id": "mhc-it-22524", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group."}
+{"example_id": "mhc-it-22471", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual."}
+{"example_id": "mhc-nl-25712", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward immigrants, implying that they are a negative influence on the government."}
+{"example_id": "mhc-nl-25667", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Het tekstfragment richt zich op homoseksuelen en gebruikt een negatieve term die suggereert dat ze ongewenst of schadelijk zijn."}
+{"example_id": "mhc-nl-25694", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward transgender individuals, targeting them as a group."}
+{"example_id": "mhc-nl-25696", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group (black people) and implies that they are a negative influence on society."}
+{"example_id": "mhc-nl-25580", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-25615", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward Muslims as a group, implying that they are a burden or drain on society."}
+{"example_id": "mhc-nl-25681", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group, implying that they are harmful or negative."}
+{"example_id": "mhc-nl-25630", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Het tekstfragment bevat een negatieve stereotypering en een hostiele uitspraak over vrouwen als 'mindere wezens'."}
+{"example_id": "mhc-nl-25789", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not attack or demean any group and does not express stereotyping or bias."}
+{"example_id": "mhc-nl-25807", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (LGBTQ+)."}
+{"example_id": "mhc-nl-25832", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a strong preference for getting cancer over being in the presence of Muslims, which can be interpreted as a negative stereotype or derision toward that religious group."}
+{"example_id": "mhc-nl-25751", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision or hostility toward a group based on their sexual orientation."}
+{"example_id": "mhc-nl-25781", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Het tekstfragment suggereert een gebrek aan empathie door het gelijkstellen van dode ratten en dode gehandicapten, wat kan worden geïnterpreteerd als een negatief stereotiepe uitspraak."}
+{"example_id": "mhc-nl-25812", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derision and hostility toward women."}
+{"example_id": "mhc-nl-25761", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or negative stereotypes towards immigrants as a group."}
+{"example_id": "mhc-nl-25716", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-25437", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses an offensive term ('walgelijk') to express hostility and derogation toward a group."}
+{"example_id": "mhc-nl-25472", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Het tekstfragment bevat een negatieve stereotypering en een hostiele uitspraak gericht tegen zwarte personen."}
+{"example_id": "mhc-nl-25528", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Het tekstfragment bevat een negatief stereotiepe opmerking over zwarte personen, wat als vijandig kan worden beschouwd."}
+{"example_id": "mhc-nl-25569", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group, using an offensive term and implying a lack of intelligence."}
+{"example_id": "mhc-nl-25456", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Het text expresses hostility and derogation toward a group (transgenders)."}
+{"example_id": "mhc-nl-25454", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-25504", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (women) and implies that their leadership is detrimental to the country."}
+{"example_id": "mhc-nl-25435", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-nl-26427", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Het tekstfragment bevat een negatief stereotipe uitspraak over mensen met een beperking, wat kan worden beschouwd als hostiel en derogatoir."}
+{"example_id": "mhc-nl-26348", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group (homoseksuelen) and implies that they are inherently flawed or defective."}
+{"example_id": "mhc-nl-26320", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the LGBTQ+ community."}
+{"example_id": "mhc-nl-26354", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and a negative stereotype toward the transgender community."}
+{"example_id": "mhc-nl-26353", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (women) and uses a derogatory slur."}
+{"example_id": "mhc-nl-26437", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-26418", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Het tekstfragment bevat een negatieve stereotypering en vijandigheid tegenover de groep 'homoseksuelen'."}
+{"example_id": "mhc-nl-26429", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-26452", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "There is no explicit targeting of any group or expression of hostility/derogation."}
+{"example_id": "mhc-nl-26444", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "Profanity is not necessarily hateful, and this text does not target any specific group for hostility or derogation."}
+{"example_id": "mhc-nl-26491", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, or negative stereotypes toward any group."}
+{"example_id": "mhc-nl-26530", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation toward a group."}
+{"example_id": "mhc-nl-26489", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-nl-26539", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward oneself, which can be interpreted as targeting a group (in this case, the group of people who might identify with the term 'idioot')."}
+{"example_id": "mhc-nl-26537", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, or a negative stereotype toward any group."}
+{"example_id": "mhc-nl-26532", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-26280", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "Het tekst bevat een negatief stereotiepe uitspraak over een groep mensen."}
+{"example_id": "mhc-nl-26193", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-26234", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual."}
+{"example_id": "mhc-nl-26208", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text uses a derogatory slur to refer to a group (LGBTQ+ individuals) and expresses hostility toward them."}
+{"example_id": "mhc-nl-26252", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-26158", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text uses a derogatory term ('neger') to refer to an individual based on their race."}
+{"example_id": "mhc-nl-26190", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-26242", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The term 'sodomite' is often used in a derogatory manner to target LGBTQ+ individuals and express hostility towards them."}
+{"example_id": "mhc-pl-29383", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward people with disabilities, which is considered hate speech."}
+{"example_id": "mhc-pl-29377", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group, suggesting they are detrimental to society."}
+{"example_id": "mhc-pl-29403", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and negative stereotypes toward a group."}
+{"example_id": "mhc-pl-29459", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward transgender individuals, implying that they are a negative force in society."}
+{"example_id": "mhc-pl-29450", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29418", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the disabled community, implying that their lives are worthless."}
+{"example_id": "mhc-pl-29474", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the disabled community, implying that they have taken over the government."}
+{"example_id": "mhc-pl-29352", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group, using a negative and dehumanizing term."}
+{"example_id": "mhc-pl-29559", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward all Asians, implying that they should be caged, which is a severe dehumanization and negative stereotype."}
+{"example_id": "mhc-pl-29531", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This statement expresses a negative stereotype and hostility toward the Jewish community, implying that their lives are less valuable than those of insects."}
+{"example_id": "mhc-pl-29482", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derisory and dehumanizing language towards Asians, implying that they are inferior and should be treated as animals in a zoo."}
+{"example_id": "mhc-pl-29509", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward people with disabilities, implying they are worthless and should be discarded."}
+{"example_id": "mhc-pl-29575", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward women as a group, implying that their presence in government will ruin the country."}
+{"example_id": "mhc-pl-29521", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (LGBTQ+ community)."}
+{"example_id": "mhc-pl-29517", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (Jews) based on religion."}
+{"example_id": "mhc-pl-29603", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision and a negative stereotype toward women."}
+{"example_id": "mhc-pl-29307", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group based on their ethnic origin."}
+{"example_id": "mhc-pl-29330", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29326", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29305", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward an individual based on their gender identity."}
+{"example_id": "mhc-pl-29301", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision and negative stereotypes about a group (people with disabilities) in a way that implies they are inherently dirty."}
+{"example_id": "mhc-pl-29287", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward the group 'people with disabilities', suggesting they are inherently violent and cruel."}
+{"example_id": "mhc-pl-29223", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29220", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (women)."}
+{"example_id": "mhc-pl-30203", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (gejes) and includes a negative slur."}
+{"example_id": "mhc-pl-30089", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group (gays) through offensive language."}
+{"example_id": "mhc-pl-30141", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (Żydzi/Jews) and implies that they are inherently bad or immoral."}
+{"example_id": "mhc-pl-30167", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text contains a derogatory generalization about people of Asian descent."}
+{"example_id": "mhc-pl-30182", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and negative stereotypes toward a group."}
+{"example_id": "mhc-pl-30177", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a person with a disability."}
+{"example_id": "mhc-pl-30147", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (people with disabilities) and implies that their lives are not worth living."}
+{"example_id": "mhc-pl-30211", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group (Jews) by describing an inherent trait of being 'irritating'."}
+{"example_id": "mhc-pl-30256", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express any hostility, derision, or negative stereotypes towards a specific group."}
+{"example_id": "mhc-pl-30264", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of profanity and derogatory language towards an individual targeting a specific group."}
+{"example_id": "mhc-pl-30273", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text is vulgar but does not target any specific group with hostile or derogatory language."}
+{"example_id": "mhc-pl-30238", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains profanity, but does not target any specific group with hostile or derogatory language."}
+{"example_id": "mhc-pl-30318", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, or dehumanization towards any group and does not contain slurs or implicit bias."}
+{"example_id": "mhc-pl-30322", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derision, or negative stereotypes towards any group."}
+{"example_id": "mhc-pl-30294", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, or negative stereotypes towards any group."}
+{"example_id": "mhc-pl-30235", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains strong language but does not target any specific group with hostile or derogatory language."}
+{"example_id": "mhc-pl-30011", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward an individual."}
+{"example_id": "mhc-pl-29990", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It is an insult, but does not target a specific group."}
+{"example_id": "mhc-pl-30056", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, or negative stereotypes toward any group."}
+{"example_id": "mhc-pl-30012", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text is an informal expression of comparison, not targeting any specific group with hostility or derogation."}
+{"example_id": "mhc-pl-30041", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29961", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group (transsexuals)."}
+{"example_id": "mhc-pl-29914", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual based on their gender."}
+{"example_id": "mhc-pl-29991", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation toward a group."}
+{"example_id": "mhc-pt-33255", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative stereotype and derisory language targeting people who are transgender."}
+{"example_id": "mhc-pt-33289", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group, using an offensive term."}
+{"example_id": "mhc-pt-33276", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group (Jews) and implies that they are a negative presence in society."}
+{"example_id": "mhc-pt-33291", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pt-33218", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-pt-33202", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text uses a derogatory slur to refer to people trans and expresses hostility toward them."}
+{"example_id": "mhc-pt-33231", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward women as a group."}
+{"example_id": "mhc-pt-33285", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and dehumanization toward the Jewish group."}
+{"example_id": "mhc-pt-33323", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (gays) and implies that they are unworthy of respect or dignity."}
+{"example_id": "mhc-pt-33294", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This statement expresses hostility and derision towards women by suggesting that they are inferior and belong in a zoo."}
+{"example_id": "mhc-pt-33342", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward people who are transgender."}
+{"example_id": "mhc-pt-33429", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This text expresses hostility and derogation toward a group (indigenous people) and implies that they are not compatible with a 'civilized' country."}
+{"example_id": "mhc-pt-33359", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative stereotype and dehumanization of Indigenous people by equating them to a dead rat."}
+{"example_id": "mhc-pt-33418", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a specific group (negros)."}
+{"example_id": "mhc-pt-33403", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a strong preference for dying rather than dating a transgender person, which can be interpreted as an attack and derision towards the transgender community."}
+{"example_id": "mhc-pt-33364", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and a negative stereotype toward indigenous people."}
+{"example_id": "mhc-pt-33024", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-pt-33108", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derision and negative generalization towards people who are trans."}
+{"example_id": "mhc-pt-33111", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This statement expresses hostility and derogation toward individuals with disabilities, implying that they are inherently ignorant."}
+{"example_id": "mhc-pt-33047", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women as a group."}
+{"example_id": "mhc-pt-33029", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision and negative evaluation of a group."}
+{"example_id": "mhc-pt-33150", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses derision and a negative generalization about the brain capacity of transgender people, implying that they are inherently different and less intelligent than others."}
+{"example_id": "mhc-pt-33075", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women."}
+{"example_id": "mhc-pt-33123", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward individuals with disabilities, implying that their intelligence is inherently inferior."}
+{"example_id": "mhc-pt-33896", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derision toward Indigenous people, implying that they are 'with their heads fucked up'."}
+{"example_id": "mhc-pt-33864", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-pt-33908", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and dehumanization toward a group."}
+{"example_id": "mhc-pt-33874", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-pt-33975", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-pt-33913", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses a negative view of women and implies that their lives are worthless."}
+{"example_id": "mhc-pt-33972", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-pt-33979", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pt-34073", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses self-loathing and a negative self-stereotype."}
+{"example_id": "mhc-pt-34003", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or negative stereotypes towards any group."}
+{"example_id": "mhc-pt-34089", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express any hostility, derogation, or negative stereotypes towards any group."}
+{"example_id": "mhc-pt-34047", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation."}
+{"example_id": "mhc-pt-34010", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotyp any group."}
+{"example_id": "mhc-pt-34050", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group of people, using a negative term ('elas') and implying that they are deceptive or untrustworthy."}
+{"example_id": "mhc-pt-34056", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or negative stereotypes towards any group."}
+{"example_id": "mhc-pt-34079", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or derogatory language towards any group."}
+{"example_id": "mhc-pt-33783", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The term 'bicha' is a derogatory slur used to refer to LGBTQ+ individuals in Brazil, carrying negative connotations and expressing hostility towards this group."}
+{"example_id": "mhc-pt-33792", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward a group of people with disabilities, implying that they are less valuable or capable than others."}
+{"example_id": "mhc-pt-33789", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The text expresses hostility and derogation toward an individual, implying that they are 'wild' and therefore potentially dangerous or uncivilized."}
+{"example_id": "mhc-pt-33718", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual, implying that they are worthless and unworthy of respect."}
+{"example_id": "mhc-pt-33742", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains profanity but does not target any group with hostility, derision, or negative stereotypes."}
+{"example_id": "mhc-pt-33811", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "The use of the slur 'bicha' to refer to a group targets them with derision and hostility."}
+{"example_id": "mhc-pt-33801", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, or negative stereotypes toward any group."}
+{"example_id": "mhc-pt-33796", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-zh-3915", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the LGBTQ+ community, implying that they are harmful or dangerous."}
+{"example_id": "mhc-zh-3894", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (homosexuals)."}
+{"example_id": "mhc-zh-3964", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the LGBTQ+ community, implying that they are harmful or detrimental."}
+{"example_id": "mhc-zh-3875", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (people with disabilities) and includes a negative stereotype."}
+{"example_id": "mhc-zh-3971", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the LGBTQ+ community."}
+{"example_id": "mhc-zh-3874", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (black people) and includes a slur."}
+{"example_id": "mhc-zh-3928", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward a group (transgender people)."}
+{"example_id": "mhc-zh-3977", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision and dehumanization of a group."}
+{"example_id": "mhc-zh-4004", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or derision towards any group and does not contain stereotypes or slurs."}
+{"example_id": "mhc-zh-4083", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the LGBTQ+ community."}
+{"example_id": "mhc-zh-4098", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses a negative stereotype and derision toward a specific group (black people)."}
+{"example_id": "mhc-zh-4096", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group (cross-gender people)."}
+{"example_id": "mhc-zh-4092", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision and distrust toward a group of people with disabilities."}
+{"example_id": "mhc-zh-4000", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses deragatory language and a negative stereotype toward a racial group."}
+{"example_id": "mhc-zh-3993", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derision and suggests that a group should be excluded from certain spaces."}
+{"example_id": "mhc-zh-4060", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or derision towards any group."}
+{"example_id": "mhc-zh-3729", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (Muslims)."}
+{"example_id": "mhc-zh-3713", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (Black people)."}
+{"example_id": "mhc-zh-3781", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the transgender community, implying that their presence is a threat to society."}
+{"example_id": "mhc-zh-3819", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward people with disabilities."}
+{"example_id": "mhc-zh-3799", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward Muslims, implying that their nature is violent and cruel."}
+{"example_id": "mhc-zh-3735", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward people with disabilities."}
+{"example_id": "mhc-zh-3787", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward women as a group."}
+{"example_id": "mhc-zh-3812", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward people with disabilities."}
+{"example_id": "mhc-zh-4694", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (transgender people)."}
+{"example_id": "mhc-zh-4621", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward the Muslim community."}
+{"example_id": "mhc-zh-4646", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (homosexuals)."}
+{"example_id": "mhc-zh-4650", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward 'foreigners', a group of people."}
+{"example_id": "mhc-zh-4614", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (Muslims) and uses a negative and offensive term ('最糟糕的混蛋')."}
+{"example_id": "mhc-zh-4610", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (transgender people)."}
+{"example_id": "mhc-zh-4641", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derision toward people with disabilities."}
+{"example_id": "mhc-zh-4670", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group (Muslims) and implies that they are inferior."}
+{"example_id": "mhc-zh-4713", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or derision towards any group. It describes the speaker's students as impatient and eager for the speaker to leave, but this could be interpreted as a common reaction between teacher and student rather than an attack on a specific group."}
+{"example_id": "mhc-zh-4719", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express any hostility or negative stereotypes towards a group."}
+{"example_id": "mhc-zh-4786", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-zh-4794", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility or derision towards any group and does not contain any slurs or stereotypes."}
+{"example_id": "mhc-zh-4781", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or negative stereotypes toward a group of people."}
+{"example_id": "mhc-zh-4750", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains self-deprecating humor and does not target any group for hostility or derision."}
+{"example_id": "mhc-zh-4772", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text contains profanity, but does not target any specific group with hostility or derogatory language."}
+{"example_id": "mhc-zh-4796", "model": "aya-23::bm25", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express any hostility, derogation, or negative stereotypes towards any group."}
+{"example_id": "mhc-zh-4435", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward an individual."}
+{"example_id": "mhc-zh-4544", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group (in this case, 'Japanese' people)."}
+{"example_id": "mhc-zh-4432", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation toward a group."}
+{"example_id": "mhc-zh-4504", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group (LGBTQ+ community in this case)."}
+{"example_id": "mhc-zh-4465", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group (people with disabilities)."}
+{"example_id": "mhc-zh-4505", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group."}
+{"example_id": "mhc-zh-4527", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "This is a derogatory term used to refer to people of Chinese descent, expressing hostility and derogation."}
+{"example_id": "mhc-zh-4476", "model": "aya-23::bm25", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation toward a group."}

@@ -39,6 +39,7 @@ wandb/
 data/**
 outputs/**
 !data/**/
+!outputs/llm/**
 !outputs/**/
 !**/.gitkeep
 !data/synthetic/implicit.csv
