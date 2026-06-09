@@ -77,12 +77,13 @@ outputs/
     cache.sqlite               # inference cache keyed by (model, prompt, temperature)
     metrics.csv / metrics.txt  # quick accuracy table from scripts/llm_metrics.py
   eval/
-    encoder_by_group.csv           # XLM-RoBERTa F1/P/R by explicit/implicit/control
+    encoder_by_group.csv           # XLM-RoBERTa F1/P/R by explicit/implicit/control (raw; F1 degenerate within single-class slices)
+    encoder_pooled_group_f1.csv    # pooled F1/precision (hate group + control as negatives) + specificity — the meaningful per-group metric
     encoder_by_language.csv        # per-language F1/P/R
     encoder_by_functionality.csv   # per fine-grained functionality
     encoder_f1_heatmap.csv         # functionality × language F1 pivot
     encoder_impl_expl_gap_by_language.csv
-    rq1_statistical_tests.csv      # chi-square + Mann–Whitney U results
+    rq1_statistical_tests.csv      # chi-square + effect size φ per language (implicit vs explicit)
     llm_summary_by_model_condition_group.csv
     llm_detailed_metrics.csv
     rq2_explanation_delta.csv
@@ -95,6 +96,8 @@ outputs/
     bertscore_per_example.csv      # per-prediction BERTScore F1 (explanation condition only)
     bertscore_aggregated.csv       # mean BERTScore F1 by model × group, split by correctness
     bertscore_correctness_correlation.csv  # point-biserial r (BERTScore vs correctness) per model
+    llm_judge_per_example.csv      # LLM-as-judge 3-point rubric scores (sampled, explanation condition)
+    llm_judge_correctness_correlation.csv  # point-biserial r (judge score vs correctness) per model
     figures/                       # 8–9 PNG plots (see Role D section)
 ```
 
@@ -239,16 +242,30 @@ Output is saved to `outputs/eval/`.
 | Explanation effect significance (McNemar) | n.s. for most conditions |
 | Model differences (Friedman, explicit, no_explanation) | p = 1.2 × 10⁻⁴ *** |
 
-### RQ2.3 — Explanation Quality (BERTScore)
+### RQ2.3 — Explanation Quality (BERTScore + LLM-as-Judge)
 
-Section 4 of the notebook measures the *groundedness* of generated rationales as a reference-free proxy: each rationale is scored against the input text using multilingual BERTScore-F1 (`bert-base-multilingual-cased`, layer 9). MHC provides no gold rationales, so this is a surface-similarity signal rather than a factual-correctness measure.
+Section 4 of the notebook measures explanation quality via two complementary methods.
 
-Three outputs are produced:
+**Section 4.1 — BERTScore (groundedness proxy).** Each rationale is scored against the input text using multilingual BERTScore-F1 (`bert-base-multilingual-cased`, layer 9). MHC provides no gold rationales, so this is a surface-similarity signal rather than a factual-correctness measure. A positive correlation with correctness may partly reflect input-echoing rather than genuine explanatory quality.
 
 | Output | What it captures |
 |--------|-----------------|
-| `bertscore_per_example.csv` | Row-level score for every explanation-condition prediction that parsed successfully |
-| `bertscore_aggregated.csv` | Mean BERTScore F1 per `model × group`; separate columns for correct vs incorrect predictions to see whether higher groundedness correlates with accuracy |
+| `bertscore_per_example.csv` | Row-level BERTScore F1 for every explanation-condition prediction that parsed successfully |
+| `bertscore_aggregated.csv` | Mean BERTScore F1 per `model × group`; separate columns for correct vs incorrect predictions |
 | `bertscore_correctness_correlation.csv` | Point-biserial r between BERTScore F1 and binary correctness, with p-value and significance stars |
 
-**Interpretation note:** BERTScore measures lexical/semantic overlap between the rationale and the source text. A high score indicates the model closely paraphrases the input; a low score may indicate hallucination or generic phrasing. The point-biserial r test checks whether more grounded explanations accompany correct classifications — a positive r would support the hypothesis that explanation quality and prediction quality are linked.
+**Section 4.2 — LLM-as-Judge (rubric-based quality).** To address the input-echoing confound, a judge LLM rates each rationale on a 3-point rubric: **3** = correct determination + specific linguistic evidence cited; **2** = correct but vague; **1** = wrong or irrelevant. 50 examples per model (150 total) are scored and point-biserial r vs correctness is reported.
+
+Two backends work out of the box:
+
+| Backend | `OPENAI_COMPATIBLE_BASE_URL` | `OPENAI_COMPATIBLE_API_KEY` | `LLM_JUDGE_MODEL` |
+|---|---|---|---|
+| **Local (Ollama)** | `http://localhost:11434/v1` | `ollama` | `llama3` or `mistral` |
+| **Cohere (Colab-friendly)** | `https://api.cohere.ai/compatibility/v1` | your `COHERE_API_KEY` | `command-r-08-2024` |
+
+When running in Colab the judge cell auto-configures the Cohere endpoint from `COHERE_API_KEY` in `.env`. The Cohere Trial key is rate-limited to 20 calls/min; the cell adds a 3 s delay automatically (~7.5 min total).
+
+| Output | What it captures |
+|--------|-----------------|
+| `llm_judge_per_example.csv` | Per-example judge scores (sampled, explanation condition only) |
+| `llm_judge_correctness_correlation.csv` | Point-biserial r between judge score and correctness, with p-value and significance stars |
