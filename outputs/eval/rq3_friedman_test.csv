@@ -1,0 +1,9 @@
+condition,group,n,friedman_chi2,p_friedman,sig,aya-23,llama-3-8b,mistral-7b
+no_explanation,explicit,352,18.094,0.000118,***,0.9318,0.8608,0.8665
+no_explanation,implicit,88,6.583,0.037192,*,0.8636,0.8977,0.7841
+no_explanation,control,88,6.933,0.031221,*,0.8636,0.8864,0.9545
+no_explanation,all,528,8.621,0.013424,*,0.9091,0.8712,0.8674
+explanation,explicit,352,34.576,0.0,***,0.9602,0.8722,0.858
+explanation,implicit,88,8.455,0.014592,*,0.9091,0.8636,0.7841
+explanation,control,88,19.0,7.5e-05,***,0.7727,0.875,0.9432
+explanation,all,528,16.377,0.000278,***,0.9205,0.8712,0.8598

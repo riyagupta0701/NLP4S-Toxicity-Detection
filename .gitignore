@@ -39,6 +39,7 @@ wandb/
 data/**
 outputs/**
 !data/**/
+!outputs/eval/**
 !outputs/llm/**
 !outputs/**/
 !**/.gitkeep
