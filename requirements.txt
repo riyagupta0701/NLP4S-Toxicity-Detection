@@ -27,6 +27,7 @@ fasttext-langdetect
 
 # Explanation-quality metrics
 bert-score
+scipy
 
 # Plotting
 matplotlib
