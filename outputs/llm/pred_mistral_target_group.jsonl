@@ -1,0 +1,1056 @@
+{"example_id": "mhc-ar-304", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-345", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-417", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-290", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-412", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-297", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-356", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-379", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-473", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-425", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-516", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-475", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-438", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-463", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-503", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-429", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-167", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-155", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-200", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-217", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-247", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-142", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-190", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-152", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1016", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-977", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1044", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1002", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1050", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1071", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-965", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1048", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1124", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1104", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1150", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1120", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1118", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1170", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1143", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-1174", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-860", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-927", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-916", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-903", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-865", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-906", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-858", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-921", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7268", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7353", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7266", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7244", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7230", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7343", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7265", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7280", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7390", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7493", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7374", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7395", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7429", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7468", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7481", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7416", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7183", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7187", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7140", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7194", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7093", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7139", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7175", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7215", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8007", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7926", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8000", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7933", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7969", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8031", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7927", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8014", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8147", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8148", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8114", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8063", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8111", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8141", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8105", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-8091", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7881", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7907", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7841", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7851", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7854", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7848", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7904", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-de-7856", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10931", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10996", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10905", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10898", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10972", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10922", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10966", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10875", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11141", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11055", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11111", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11062", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11090", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11107", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11029", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11038", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10764", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10762", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10753", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10736", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10779", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10758", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10733", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-10803", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11804", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11802", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11714", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11800", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11726", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11813", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11805", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11688", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11869", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11860", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11894", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11889", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11828", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11876", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11903", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11829", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11566", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11564", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11546", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11485", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11453", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11477", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11469", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-en-11511", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36977", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36920", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36848", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36965", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36955", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36845", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36891", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36972", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37008", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37033", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37101", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37064", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37013", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36996", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37065", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37107", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36808", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36806", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36778", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36783", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36838", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36796", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36758", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-36733", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37601", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37628", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37678", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37581", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37571", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37685", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37670", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37595", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37780", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37732", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37785", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37791", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37701", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37754", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37742", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37706", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37466", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37426", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37504", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37481", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37484", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37493", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37430", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-es-37421", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14649", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14661", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14678", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14622", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14602", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14666", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14724", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14700", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14818", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14785", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14866", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14849", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14812", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14841", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14823", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14783", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14545", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14465", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14576", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14573", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14539", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14587", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14522", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-14467", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15390", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15393", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15405", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15355", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15446", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15379", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15409", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15443", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15500", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15527", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15493", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15553", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15545", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15495", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15477", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15488", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15255", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15188", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15244", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15240", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15285", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15220", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15203", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-fr-15174", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18358", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18348", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18396", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18393", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18344", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18415", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18445", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18352", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18507", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18489", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18564", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18587", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18478", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18566", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18504", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18467", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18191", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18255", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18247", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18186", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18251", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18228", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18305", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18260", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19090", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19067", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19048", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19081", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18970", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19075", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19017", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19027", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19135", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19130", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19146", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19174", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19125", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19178", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19131", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-19197", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18953", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18945", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18956", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18938", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18893", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18948", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18968", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-hi-18966", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21951", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21887", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21973", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21936", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21915", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21922", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21897", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21989", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22125", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22138", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22041", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22069", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22083", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22074", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22093", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22090", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21782", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21778", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21752", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21815", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21772", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21851", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21767", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-21763", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22709", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22666", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22631", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22589", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22604", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22665", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22614", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22588", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22728", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22776", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22777", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22772", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22796", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22818", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22785", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22727", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22556", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22468", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22509", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22513", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22554", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22474", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22524", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-it-22471", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25712", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25667", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25694", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25696", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25580", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25615", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25681", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25630", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25789", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25807", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25832", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25751", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25781", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25812", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25761", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25716", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25437", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25472", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25528", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25569", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25456", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25454", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25504", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-25435", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26427", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26348", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26320", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26354", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26353", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26437", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26418", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26429", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26452", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26444", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26491", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26530", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26489", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26539", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26537", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26532", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26280", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26193", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26234", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26208", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26252", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26158", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26190", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-nl-26242", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29383", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29377", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29403", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29459", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29450", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29418", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29474", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29352", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29559", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29531", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29482", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29509", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29575", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29521", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29517", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29603", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29307", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29330", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29326", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29305", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29301", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29287", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29223", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29220", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30203", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30089", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30141", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30167", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30182", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30177", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30147", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30211", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30256", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30264", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30273", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30238", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30318", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30322", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30294", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30235", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30011", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29990", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30056", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30012", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-30041", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29961", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29914", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pl-29991", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33255", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33289", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33276", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33291", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33218", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33202", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33231", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33285", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33323", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33294", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33342", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33429", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33359", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33418", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33403", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33364", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33024", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33108", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33111", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33047", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33029", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33150", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33075", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33123", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33896", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33864", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33908", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33874", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33975", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33913", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33972", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33979", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34073", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34003", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34089", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34047", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34010", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34050", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34056", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-34079", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33783", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33792", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33789", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33718", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33742", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33811", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33801", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-pt-33796", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3915", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3894", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3964", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3875", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3971", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3874", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3928", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3977", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4004", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4083", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4098", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4096", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4092", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4000", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3993", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4060", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3729", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3713", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3781", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3819", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3799", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3735", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3787", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-3812", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4694", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4621", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4646", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4650", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4614", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4610", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4641", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4670", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4713", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4719", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4786", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4794", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4781", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4750", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4772", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4796", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4435", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4544", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4432", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4504", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4465", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4505", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4527", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-zh-4476", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "no_explanation", "rationale": null}
+{"example_id": "mhc-ar-304", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards an individual based on their race or ethnicity."}
+{"example_id": "mhc-ar-345", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-417", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-290", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-412", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-297", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific racial group."}
+{"example_id": "mhc-ar-356", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group (refugees)."}
+{"example_id": "mhc-ar-379", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards the transgender community."}
+{"example_id": "mhc-ar-473", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a specific religious group (Jews)."}
+{"example_id": "mhc-ar-425", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, dehumanization, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-516", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-475", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-ar-438", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards Jews by comparing them to a dog."}
+{"example_id": "mhc-ar-463", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward transgender individuals."}
+{"example_id": "mhc-ar-503", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization toward a group (refugees)."}
+{"example_id": "mhc-ar-429", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group by suggesting that veterinarians should treat homosexual people."}
+{"example_id": "mhc-ar-167", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group of refugees."}
+{"example_id": "mhc-ar-155", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-ar-200", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses admiration for Jews, not hostility or derogation."}
+{"example_id": "mhc-ar-217", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text describes women as being stubborn by nature, which is not necessarily hateful or derogatory."}
+{"example_id": "mhc-ar-247", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-ar-142", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-190", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-152", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text refers to 'the oppressors', it does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-ar-1016", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and negative stereotypes toward a group."}
+{"example_id": "mhc-ar-977", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the refugees."}
+{"example_id": "mhc-ar-1044", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial or ethnic group."}
+{"example_id": "mhc-ar-1002", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-1050", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific group."}
+{"example_id": "mhc-ar-1071", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-ar-965", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-1048", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward women."}
+{"example_id": "mhc-ar-1124", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-ar-1104", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-ar-1150", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-ar-1120", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-ar-1118", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-ar-1170", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-ar-1143", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses a wish to punish those who have wronged, not targeting any specific group."}
+{"example_id": "mhc-ar-1174", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-ar-860", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses a negative opinion about an individual, not a group."}
+{"example_id": "mhc-ar-927", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-ar-916", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-903", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group, implying they are deceitful or treacherous."}
+{"example_id": "mhc-ar-865", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-ar-906", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group, implying they are traitors."}
+{"example_id": "mhc-ar-858", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation toward an individual based on their ethnicity."}
+{"example_id": "mhc-ar-921", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group (in this case, women who change their nature)."}
+{"example_id": "mhc-de-7268", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Jewish group."}
+{"example_id": "mhc-de-7353", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group of refugees."}
+{"example_id": "mhc-de-7266", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the group of black people."}
+{"example_id": "mhc-de-7244", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-de-7230", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the LGBTQ+ community."}
+{"example_id": "mhc-de-7343", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a racial group."}
+{"example_id": "mhc-de-7265", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-de-7280", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or dehumanization towards a specific group."}
+{"example_id": "mhc-de-7390", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-de-7493", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the transgender community."}
+{"example_id": "mhc-de-7374", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the group of refugees."}
+{"example_id": "mhc-de-7395", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype towards refugees as a group."}
+{"example_id": "mhc-de-7429", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-de-7468", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group (people with disabilities)."}
+{"example_id": "mhc-de-7481", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-de-7416", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the group of refugees."}
+{"example_id": "mhc-de-7183", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text mentions people with disabilities, it does not express hostility, derogation, or a negative stereotype toward them."}
+{"example_id": "mhc-de-7187", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-de-7140", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-de-7194", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-de-7093", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the word 'widerlich' can be interpreted as unpleasant, it does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-de-7139", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and degradation towards a specific group."}
+{"example_id": "mhc-de-7175", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-de-7215", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derogation and dehumanization towards a specific group."}
+{"example_id": "mhc-de-8007", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group."}
+{"example_id": "mhc-de-7926", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group."}
+{"example_id": "mhc-de-8000", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-de-7933", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards refugees."}
+{"example_id": "mhc-de-7969", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization toward a specific group (women)."}
+{"example_id": "mhc-de-8031", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group of refugees."}
+{"example_id": "mhc-de-7927", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and degradation towards women."}
+{"example_id": "mhc-de-8014", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific racial group."}
+{"example_id": "mhc-de-8147", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-de-8148", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It is a self-deprecating statement and does not target any specific group."}
+{"example_id": "mhc-de-8114", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanisation, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-de-8063", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-de-8111", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-de-8141", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-de-8105", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-de-8091", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-de-7881", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a derogatory slur towards men."}
+{"example_id": "mhc-de-7907", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-de-7841", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards an unspecified group."}
+{"example_id": "mhc-de-7851", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group (Jews)."}
+{"example_id": "mhc-de-7854", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and degradation towards women."}
+{"example_id": "mhc-de-7848", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-de-7904", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a specific group."}
+{"example_id": "mhc-de-7856", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While 'Transe' can be considered an insult, it does not specifically target any protected group based on race, gender, religion, or ethnicity."}
+{"example_id": "mhc-en-10931", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-en-10996", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, dehumanization, and a negative stereotype toward a group."}
+{"example_id": "mhc-en-10905", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses dehumanization and derogation towards the disabled group."}
+{"example_id": "mhc-en-10898", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, dehumanization, and a negative stereotype toward a group."}
+{"example_id": "mhc-en-10972", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-en-10922", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-en-10966", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, and a negative stereotype toward a group."}
+{"example_id": "mhc-en-10875", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-en-11141", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a specific group."}
+{"example_id": "mhc-en-11055", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text mentions 'women', it does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping towards them."}
+{"example_id": "mhc-en-11111", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards women."}
+{"example_id": "mhc-en-11062", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-en-11090", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-en-11107", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific racial group."}
+{"example_id": "mhc-en-11029", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text may be perceived as offensive due to the comparison of an animal's intelligence to a human, it does not express hostility, derogation, or a negative stereotype toward any specific group."}
+{"example_id": "mhc-en-11038", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-en-10764", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-en-10762", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the trans community."}
+{"example_id": "mhc-en-10753", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-en-10736", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-en-10779", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-en-10758", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the disabled people."}
+{"example_id": "mhc-en-10733", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-en-10803", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific gender group."}
+{"example_id": "mhc-en-11804", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It dehumanizes and expresses hostility towards people with disabilities."}
+{"example_id": "mhc-en-11802", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-en-11714", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-en-11800", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards women."}
+{"example_id": "mhc-en-11726", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-en-11813", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a specific group."}
+{"example_id": "mhc-en-11805", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific religious group."}
+{"example_id": "mhc-en-11688", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-en-11869", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-en-11860", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-en-11894", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the language is disrespectful, it does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-en-11889", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses frustration with an individual's actions, not a group."}
+{"example_id": "mhc-en-11828", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-en-11876", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-en-11903", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses personal feelings and does not target any specific group."}
+{"example_id": "mhc-en-11829", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-en-11566", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific religious group."}
+{"example_id": "mhc-en-11564", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific ethnic group."}
+{"example_id": "mhc-en-11546", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-en-11485", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-en-11453", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a racial slur targeting a specific group."}
+{"example_id": "mhc-en-11477", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype targeting a specific group."}
+{"example_id": "mhc-en-11469", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific group."}
+{"example_id": "mhc-en-11511", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a slur to target a specific religious group."}
+{"example_id": "mhc-es-36977", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It dehumanizes women, expressing hostility and derogation towards a group."}
+{"example_id": "mhc-es-36920", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-es-36848", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a slur to target a specific group."}
+{"example_id": "mhc-es-36965", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the LGBTQ+ community."}
+{"example_id": "mhc-es-36955", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-es-36845", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-es-36891", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific religious group."}
+{"example_id": "mhc-es-36972", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses dehumanization and derogation towards the LGBTQ+ community."}
+{"example_id": "mhc-es-37008", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-es-37033", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-es-37101", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-es-37064", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-es-37013", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses extreme hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-es-36996", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Jewish people by suggesting they should be treated as animals."}
+{"example_id": "mhc-es-37065", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-es-37107", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses dehumanization and hostility towards Indigenous people."}
+{"example_id": "mhc-es-36808", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group of disabled people."}
+{"example_id": "mhc-es-36806", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific ethnic group."}
+{"example_id": "mhc-es-36778", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific ethnic group."}
+{"example_id": "mhc-es-36783", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific group."}
+{"example_id": "mhc-es-36838", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-es-36796", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype targeting a racial group."}
+{"example_id": "mhc-es-36758", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific religious group."}
+{"example_id": "mhc-es-36733", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a specific racial group."}
+{"example_id": "mhc-es-37601", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific gender group."}
+{"example_id": "mhc-es-37628", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, and dehumanization towards the disabled people."}
+{"example_id": "mhc-es-37678", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and degradation towards all women as a group."}
+{"example_id": "mhc-es-37581", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific racial group."}
+{"example_id": "mhc-es-37571", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-es-37685", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards women."}
+{"example_id": "mhc-es-37670", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards the group of disabled people."}
+{"example_id": "mhc-es-37595", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards two different groups, 'negros' and 'putas'."}
+{"example_id": "mhc-es-37780", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-es-37732", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-es-37785", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-es-37791", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text uses a derogatory term for oneself, not targeting any specific group."}
+{"example_id": "mhc-es-37701", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-es-37754", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-es-37742", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-es-37706", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-es-37466", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards an individual or group."}
+{"example_id": "mhc-es-37426", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a specific group (LGBTQ+)."}
+{"example_id": "mhc-es-37504", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-es-37481", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a group by using slurs."}
+{"example_id": "mhc-es-37484", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards women, using a common sexist slur."}
+{"example_id": "mhc-es-37493", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derogation and dehumanization towards a specific ethnic group."}
+{"example_id": "mhc-es-37430", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-es-37421", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards an individual, implying they are inferior."}
+{"example_id": "mhc-fr-14649", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group (refugees) by comparing them to rats."}
+{"example_id": "mhc-fr-14661", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-fr-14678", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-fr-14622", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group (women)."}
+{"example_id": "mhc-fr-14602", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the trans community."}
+{"example_id": "mhc-fr-14666", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the LGBTQ+ community."}
+{"example_id": "mhc-fr-14724", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-fr-14700", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward the transgender community."}
+{"example_id": "mhc-fr-14818", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards women by suggesting they should be confined like animals."}
+{"example_id": "mhc-fr-14785", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text uses profanity, it does not target any specific group."}
+{"example_id": "mhc-fr-14866", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-fr-14849", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group (people with disabilities)."}
+{"example_id": "mhc-fr-14812", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses concern for the wellbeing of a group, but does not attack, demean, or stereotype them."}
+{"example_id": "mhc-fr-14841", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Black community."}
+{"example_id": "mhc-fr-14823", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Muslim community."}
+{"example_id": "mhc-fr-14783", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text uses profanity, it does not target any specific group."}
+{"example_id": "mhc-fr-14545", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype targeting a specific group."}
+{"example_id": "mhc-fr-14465", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a group."}
+{"example_id": "mhc-fr-14576", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a specific racial group."}
+{"example_id": "mhc-fr-14573", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards women, implying they are the least intelligent beings on the planet."}
+{"example_id": "mhc-fr-14539", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-fr-14587", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards women."}
+{"example_id": "mhc-fr-14522", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific religious group."}
+{"example_id": "mhc-fr-14467", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-fr-15390", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a group (refugees)."}
+{"example_id": "mhc-fr-15393", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group."}
+{"example_id": "mhc-fr-15405", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women."}
+{"example_id": "mhc-fr-15355", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the group of refugees."}
+{"example_id": "mhc-fr-15446", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting any group."}
+{"example_id": "mhc-fr-15379", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-fr-15409", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards people with disabilities."}
+{"example_id": "mhc-fr-15443", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-fr-15500", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-fr-15527", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-fr-15493", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a derogatory term ('pute') to attack an individual, which can be considered hateful."}
+{"example_id": "mhc-fr-15553", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-fr-15545", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-fr-15495", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-fr-15477", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-fr-15488", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-fr-15255", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-fr-15188", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and degradation towards an individual."}
+{"example_id": "mhc-fr-15244", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a derogatory slur targeting a racial group."}
+{"example_id": "mhc-fr-15240", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a specific ethnic group."}
+{"example_id": "mhc-fr-15285", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-fr-15220", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the word 'tarlouze' is often used as an insult in French, it does not specifically target any particular group."}
+{"example_id": "mhc-fr-15203", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-fr-15174", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype targeting a racial group."}
+{"example_id": "mhc-hi-18358", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18348", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18396", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward women."}
+{"example_id": "mhc-hi-18393", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific religious group."}
+{"example_id": "mhc-hi-18344", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, and dehumanization towards the Muslim community."}
+{"example_id": "mhc-hi-18415", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-hi-18445", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the term 'hijra' is often associated with a community in India, this text simply states that they are human, which is not derogatory or hostile."}
+{"example_id": "mhc-hi-18352", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Shudra caste."}
+{"example_id": "mhc-hi-18507", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group by comparing Hindus to Negroes."}
+{"example_id": "mhc-hi-18489", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group."}
+{"example_id": "mhc-hi-18564", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text expresses strong feelings, it does not target or demean any specific group."}
+{"example_id": "mhc-hi-18587", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group (gays)."}
+{"example_id": "mhc-hi-18478", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18566", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text mentions 'gay' people, it does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-hi-18504", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While it compares two groups, it does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-hi-18467", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text refers to a specific group (hijra), it does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping."}
+{"example_id": "mhc-hi-18191", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-hi-18255", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses implicit bias and stereotyping towards a specific racial group."}
+{"example_id": "mhc-hi-18247", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the term 'shudra' is associated with a caste in Hinduism, this text does not express hostility or derogation towards them."}
+{"example_id": "mhc-hi-18186", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-hi-18251", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text mentions a group (gays), it does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting the group."}
+{"example_id": "mhc-hi-18228", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group (women)."}
+{"example_id": "mhc-hi-18305", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-18260", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text implies that being disrespectful is common among Muslims, it does not express hostility or derogation towards them."}
+{"example_id": "mhc-hi-19090", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-hi-19067", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a specific group."}
+{"example_id": "mhc-hi-19048", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text may be seen as stereotypical, it does not express hostility or derogation towards a specific group."}
+{"example_id": "mhc-hi-19081", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-hi-18970", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-hi-19075", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-hi-19017", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses dehumanization and negative stereotyping towards a group."}
+{"example_id": "mhc-hi-19027", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards the LGBTQ+ community."}
+{"example_id": "mhc-hi-19135", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-hi-19130", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-hi-19146", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group (women)."}
+{"example_id": "mhc-hi-19174", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-hi-19125", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-hi-19178", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-hi-19131", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-hi-19197", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-hi-18953", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group (transgender people)."}
+{"example_id": "mhc-hi-18945", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype towards a specific ethnic group."}
+{"example_id": "mhc-hi-18956", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-hi-18938", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-hi-18893", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses personal dislike but does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-hi-18948", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-hi-18968", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or dehumanization towards a caste group."}
+{"example_id": "mhc-hi-18966", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-it-21951", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-it-21887", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a slur to dehumanize and express hostility towards the Muslim community."}
+{"example_id": "mhc-it-21973", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group (women)."}
+{"example_id": "mhc-it-21936", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses dehumanizing language towards a specific group."}
+{"example_id": "mhc-it-21915", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-it-21922", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-it-21897", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-it-21989", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the transgender community by comparing them to a harmful virus."}
+{"example_id": "mhc-it-22125", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-it-22138", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-it-22041", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-it-22069", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses a personal preference and does not target any specific group."}
+{"example_id": "mhc-it-22083", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Muslim community, as it suggests they are treated like animals."}
+{"example_id": "mhc-it-22074", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-it-22093", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization toward a specific group."}
+{"example_id": "mhc-it-22090", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-it-21782", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-it-21778", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-it-21752", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derogation and a negative stereotype toward a group."}
+{"example_id": "mhc-it-21815", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific group."}
+{"example_id": "mhc-it-21772", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards the transgender community."}
+{"example_id": "mhc-it-21851", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards people with disabilities."}
+{"example_id": "mhc-it-21767", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the disabled group."}
+{"example_id": "mhc-it-21763", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group (women in this case)."}
+{"example_id": "mhc-it-22709", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific racial group."}
+{"example_id": "mhc-it-22666", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward women."}
+{"example_id": "mhc-it-22631", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-it-22589", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text contains profanity, it does not target any specific group and is more likely to be expressing frustration or anger rather than hate."}
+{"example_id": "mhc-it-22604", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization toward a specific group."}
+{"example_id": "mhc-it-22665", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward immigrants."}
+{"example_id": "mhc-it-22614", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-it-22588", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text contains profanity, it does not express hostility, derogation, or a negative stereotype toward a specific group."}
+{"example_id": "mhc-it-22728", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It uses profanity but does not target any specific group."}
+{"example_id": "mhc-it-22776", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It uses a derogatory term about oneself, not targeting any specific group."}
+{"example_id": "mhc-it-22777", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-it-22772", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-it-22796", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-it-22818", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-it-22785", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-it-22727", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It uses profanity but does not target any specific group."}
+{"example_id": "mhc-it-22556", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-it-22468", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group (Muslims) by labeling the person as a 'jihadist' without any context or justification."}
+{"example_id": "mhc-it-22509", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses dehumanization and slurs targeting a specific ethnic group."}
+{"example_id": "mhc-it-22513", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses degrading language to target a specific group of people (women)."}
+{"example_id": "mhc-it-22554", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-it-22474", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a social group based on wealth."}
+{"example_id": "mhc-it-22524", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group (jihadists)."}
+{"example_id": "mhc-it-22471", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific individual, which can be considered hateful."}
+{"example_id": "mhc-nl-25712", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards immigrants by using the word 'infest', implying they are pests or vermin."}
+{"example_id": "mhc-nl-25667", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, dehumanization, and a negative stereotype toward a group."}
+{"example_id": "mhc-nl-25694", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific group."}
+{"example_id": "mhc-nl-25696", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-nl-25580", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward the Muslim community."}
+{"example_id": "mhc-nl-25615", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses dehumanization and derogation towards the Muslim community."}
+{"example_id": "mhc-nl-25681", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization by comparing the group to a harmful virus"}
+{"example_id": "mhc-nl-25630", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards women."}
+{"example_id": "mhc-nl-25789", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-nl-25807", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-nl-25832", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific religious group."}
+{"example_id": "mhc-nl-25751", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group based on sexual orientation."}
+{"example_id": "mhc-nl-25781", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-25812", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards women."}
+{"example_id": "mhc-nl-25761", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-25716", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-25437", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-nl-25472", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-nl-25528", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific racial group."}
+{"example_id": "mhc-nl-25569", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-nl-25456", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text expresses discomfort, it does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping towards a specific group."}
+{"example_id": "mhc-nl-25454", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-nl-25504", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward women in leadership positions."}
+{"example_id": "mhc-nl-25435", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-nl-26427", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-nl-26348", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the group of homosexual people."}
+{"example_id": "mhc-nl-26320", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-nl-26354", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards the transgender community."}
+{"example_id": "mhc-nl-26353", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a group."}
+{"example_id": "mhc-nl-26437", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text is not hateful as it simply states that the person in question was a woman, without expressing hostility or derogation."}
+{"example_id": "mhc-nl-26418", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward the LGBTQ+ community."}
+{"example_id": "mhc-nl-26429", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific religious group."}
+{"example_id": "mhc-nl-26452", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanisation, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-nl-26444", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses frustration or annoyance, but it does not target a specific group."}
+{"example_id": "mhc-nl-26491", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanisation, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-nl-26530", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text mentions being called a 'lul' (a derogatory term in Dutch), it does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping towards any specific group."}
+{"example_id": "mhc-nl-26489", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-nl-26539", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanisation, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-nl-26537", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-nl-26532", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-nl-26280", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or dehumanization towards a specific ethnic group."}
+{"example_id": "mhc-nl-26193", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It is a derogatory term but it does not specifically target a particular group."}
+{"example_id": "mhc-nl-26234", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility or derogation towards an individual."}
+{"example_id": "mhc-nl-26208", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-nl-26252", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-nl-26158", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a racial slur to dehumanize and target a specific group."}
+{"example_id": "mhc-nl-26190", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-nl-26242", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards the LGBTQ+ community."}
+{"example_id": "mhc-pl-29383", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the disabled group."}
+{"example_id": "mhc-pl-29377", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Jewish community."}
+{"example_id": "mhc-pl-29403", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards Asians by labeling them as 'pests' or 'destroyers'."}
+{"example_id": "mhc-pl-29459", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29450", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29418", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative evaluation of the value of life for people with disabilities."}
+{"example_id": "mhc-pl-29474", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, or a negative stereotype toward any group."}
+{"example_id": "mhc-pl-29352", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the transgender community."}
+{"example_id": "mhc-pl-29559", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, dehumanization, and slurs targeting a group."}
+{"example_id": "mhc-pl-29531", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific religious group."}
+{"example_id": "mhc-pl-29482", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-pl-29509", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the disabled group."}
+{"example_id": "mhc-pl-29575", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific group (women)."}
+{"example_id": "mhc-pl-29521", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses a personal preference and does not target any specific group."}
+{"example_id": "mhc-pl-29517", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific religious group."}
+{"example_id": "mhc-pl-29603", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women."}
+{"example_id": "mhc-pl-29307", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward an ethnic group."}
+{"example_id": "mhc-pl-29330", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29326", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29305", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group (transgender people)."}
+{"example_id": "mhc-pl-29301", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the disabled people."}
+{"example_id": "mhc-pl-29287", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific group (people with disabilities)."}
+{"example_id": "mhc-pl-29223", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific ethnic group."}
+{"example_id": "mhc-pl-29220", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward women."}
+{"example_id": "mhc-pl-30203", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-30089", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group."}
+{"example_id": "mhc-pl-30141", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-pl-30167", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards people of Asian descent."}
+{"example_id": "mhc-pl-30182", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-30177", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards people with disabilities."}
+{"example_id": "mhc-pl-30147", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization toward a group."}
+{"example_id": "mhc-pl-30211", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific religious group."}
+{"example_id": "mhc-pl-30256", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses a personal opinion or preference, not targeting any specific group."}
+{"example_id": "mhc-pl-30264", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a slur and expresses hostility towards an individual."}
+{"example_id": "mhc-pl-30273", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-pl-30238", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text contains profanity, it does not target any specific group."}
+{"example_id": "mhc-pl-30318", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-pl-30322", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-pl-30294", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses self-awareness and frustration, but does not target any specific group."}
+{"example_id": "mhc-pl-30235", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanisation, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-pl-30011", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It uses a colloquial term of endearment and does not express hostility, derogation, or a negative stereotype toward any group."}
+{"example_id": "mhc-pl-29990", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a slur to target a specific group."}
+{"example_id": "mhc-pl-30056", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-pl-30012", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It uses a metaphor and does not express hostility, derogation, dehumanization, slurs, or implicit bias towards any group."}
+{"example_id": "mhc-pl-30041", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-pl-29961", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the transgender community."}
+{"example_id": "mhc-pl-29914", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pl-29991", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not target any specific group and is not hateful."}
+{"example_id": "mhc-pt-33255", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization toward a specific group."}
+{"example_id": "mhc-pt-33289", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific group."}
+{"example_id": "mhc-pt-33276", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Jewish group."}
+{"example_id": "mhc-pt-33291", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a specific ethnic group."}
+{"example_id": "mhc-pt-33218", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It dehumanizes and expresses hostility towards a specific racial group."}
+{"example_id": "mhc-pt-33202", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-pt-33231", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization toward a specific group."}
+{"example_id": "mhc-pt-33285", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It dehumanizes a specific group, which is hateful."}
+{"example_id": "mhc-pt-33323", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses explicit hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-pt-33294", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards women by comparing them to animals."}
+{"example_id": "mhc-pt-33342", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group. The text expresses a personal preference rather than hostility."}
+{"example_id": "mhc-pt-33429", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization toward a specific group (Indigenous people)."}
+{"example_id": "mhc-pt-33359", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Indigenous people."}
+{"example_id": "mhc-pt-33418", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-pt-33403", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group (trans people)."}
+{"example_id": "mhc-pt-33364", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward the Indigenous people, implying that their lives are not important."}
+{"example_id": "mhc-pt-33024", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a specific group."}
+{"example_id": "mhc-pt-33108", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-pt-33111", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group."}
+{"example_id": "mhc-pt-33047", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward women as a group."}
+{"example_id": "mhc-pt-33029", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses dehumanization and derogation toward a group."}
+{"example_id": "mhc-pt-33150", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses dehumanization and derogation towards a specific group."}
+{"example_id": "mhc-pt-33075", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pt-33123", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards people with disabilities."}
+{"example_id": "mhc-pt-33896", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and degradation towards the Indigenous people."}
+{"example_id": "mhc-pt-33864", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation toward a specific group (women)."}
+{"example_id": "mhc-pt-33908", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-pt-33874", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative sentiment towards a specific racial group."}
+{"example_id": "mhc-pt-33975", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pt-33913", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards women."}
+{"example_id": "mhc-pt-33972", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the LGBTQ+ community."}
+{"example_id": "mhc-pt-33979", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-pt-34073", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-pt-34003", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-pt-34089", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not target any specific group and expresses self-criticism rather than hostility."}
+{"example_id": "mhc-pt-34047", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-pt-34010", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any group."}
+{"example_id": "mhc-pt-34050", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not explicitly target any specific group and is more likely referring to general actions or behaviors as 'sacanagem'."}
+{"example_id": "mhc-pt-34056", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the word 'puto' can be considered offensive in Portuguese, it does not specifically target any particular group."}
+{"example_id": "mhc-pt-34079", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group, but rather refers to a personal experience."}
+{"example_id": "mhc-pt-33783", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards a specific group."}
+{"example_id": "mhc-pt-33792", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards people with disabilities."}
+{"example_id": "mhc-pt-33789", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group."}
+{"example_id": "mhc-pt-33718", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the person being addressed."}
+{"example_id": "mhc-pt-33742", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not attack, demean, or stereotype any specific group."}
+{"example_id": "mhc-pt-33811", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It uses a homophobic slur to target a specific group."}
+{"example_id": "mhc-pt-33801", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a specific ethnic group."}
+{"example_id": "mhc-pt-33796", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and derogation towards the LGBTQ+ community."}
+{"example_id": "mhc-zh-3915", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group."}
+{"example_id": "mhc-zh-3894", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text refers to a specific group (same-sex attracted individuals), it does not express hostility, derogation, or a negative stereotype towards them."}
+{"example_id": "mhc-zh-3964", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group (LGBTQ+)."}
+{"example_id": "mhc-zh-3875", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards people with disabilities."}
+{"example_id": "mhc-zh-3971", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-zh-3874", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-zh-3928", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group."}
+{"example_id": "mhc-zh-3977", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-zh-4004", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-zh-4083", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype towards a specific group (same-sex individuals)."}
+{"example_id": "mhc-zh-4098", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-zh-4096", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group (transgender people)."}
+{"example_id": "mhc-zh-4092", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards people with disabilities."}
+{"example_id": "mhc-zh-4000", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-zh-3993", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-zh-4060", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses concern for women's lives, not hostility or derogation towards any group."}
+{"example_id": "mhc-zh-3729", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses derogation and dehumanization towards the Muslim community."}
+{"example_id": "mhc-zh-3713", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific racial group."}
+{"example_id": "mhc-zh-3781", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a specific group (transgender people)."}
+{"example_id": "mhc-zh-3819", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text may seem insensitive, it does not express hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-zh-3799", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses a negative stereotype and dehumanization towards the Muslim group."}
+{"example_id": "mhc-zh-3735", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text may express discomfort, it does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping towards a group."}
+{"example_id": "mhc-zh-3787", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses a negative stereotype about women as being uncivilized by nature."}
+{"example_id": "mhc-zh-3812", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text describes people with disabilities in a negative way, it does not express hostility, derogation, or dehumanization. It is more of a personal opinion about cleanliness rather than targeting a group."}
+{"example_id": "mhc-zh-4694", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text refers to someone as 'cross-gender', it does not express hostility, derogation, or a negative stereotype toward a group."}
+{"example_id": "mhc-zh-4621", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Muslim community."}
+{"example_id": "mhc-zh-4646", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the LGBTQ+ community."}
+{"example_id": "mhc-zh-4650", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards a group (foreigners)."}
+{"example_id": "mhc-zh-4614", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Muslim community."}
+{"example_id": "mhc-zh-4610", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and a negative stereotype toward a group (transgender people)."}
+{"example_id": "mhc-zh-4641", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text may seem disrespectful, it does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a specific group."}
+{"example_id": "mhc-zh-4670", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards the Muslim community."}
+{"example_id": "mhc-zh-4713", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses frustration or annoyance towards an individual, not a group."}
+{"example_id": "mhc-zh-4719", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It expresses a desire to leave, not targeting any specific group."}
+{"example_id": "mhc-zh-4786", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-zh-4794", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-zh-4781", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the text expresses dislike for certain behavior, it does not target any specific group or its members."}
+{"example_id": "mhc-zh-4750", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-zh-4772", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the word used can be considered vulgar, it does not target any specific group."}
+{"example_id": "mhc-zh-4796", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-zh-4435", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-zh-4544", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility and dehumanization towards Japanese people."}
+{"example_id": "mhc-zh-4432", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "While the term '尼嘎' can be considered derogatory towards Tibetans, in this context it seems to be used as a casual insult rather than expressing hostility or negative stereotypes towards a group."}
+{"example_id": "mhc-zh-4504", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It is not hateful as it does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-zh-4465", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It is not expressing hostility, derogation, dehumanization, slurs, or implicit bias / stereotyping targeting a group."}
+{"example_id": "mhc-zh-4505", "model": "mistral-7b::target_group", "pred_label": "hateful", "condition": "explanation", "rationale": "It expresses hostility, dehumanization, and a racial slur targeting a specific group."}
+{"example_id": "mhc-zh-4527", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "The text does not express hostility, derogation, dehumanization, slurs, or implicit bias/stereotyping targeting a group."}
+{"example_id": "mhc-zh-4476", "model": "mistral-7b::target_group", "pred_label": "non-hateful", "condition": "explanation", "rationale": "It is a casual way of referring to a group of people, without expressing hostility, derogation, or negative stereotypes."}
