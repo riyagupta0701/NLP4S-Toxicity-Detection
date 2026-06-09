@@ -39,9 +39,25 @@ def _language_name(code: str) -> str:
     return _LANG_NAMES.get(code, code)
 
 
-def _format_demo(demo: Example) -> str:
-    """Render one demo as a JSON object matching the requested response shape."""
-    payload: dict[str, str] = {"text": demo.text, "label": demo.label}
+# Templated rationales for few-shot demos in the explanation condition. The
+# demonstration pool (MHC / synthetic) carries no gold explanations, so without
+# these the demos answer with label only and the model imitates that — omitting
+# the explanation field. Generic, label-consistent rationales teach the shape.
+_DEMO_RATIONALE: dict[str, str] = {
+    "hateful": "It expresses hostility, derogation, or a negative stereotype toward a group.",
+    "non-hateful": "It does not attack, demean, or stereotype any group.",
+}
+
+
+def _format_demo(demo: Example, condition: str) -> str:
+    """Render one demo's answer JSON, matching the requested response schema.
+
+    The input text is already shown on the preceding ``Text:`` line, so the
+    answer carries only the schema fields (no ``text`` key).
+    """
+    payload: dict[str, str] = {"label": demo.label}
+    if condition == "explanation":
+        payload["explanation"] = _DEMO_RATIONALE.get(demo.label, "")
     return json.dumps(payload, ensure_ascii=False)
 
 
@@ -98,11 +114,41 @@ def build_prompt(
         ]
         for d in demonstrations:
             demo_lines.append(f"Text: {d.text}")
-            demo_lines.append(f"Answer: {_format_demo(d)}")
+            demo_lines.append(f"Answer: {_format_demo(d, condition)}")
         parts.append("\n".join(demo_lines))
 
     parts.append(f"Text: {text}\nAnswer:")
     return "\n\n".join(parts)
+
+
+def response_format(condition: str) -> dict:
+    """OpenAI/Ollama ``response_format`` JSON schema for the given condition.
+
+    Stricter than ``{"type": "json_object"}``: it *requires* the schema fields,
+    so the explanation condition cannot omit ``explanation``. Passed to
+    OpenAI-compatible backends (e.g. Ollama structured outputs).
+    """
+    if condition not in CONDITIONS:
+        raise ValueError(f"condition must be one of {CONDITIONS}, got {condition!r}")
+    properties: dict[str, dict] = {
+        "label": {"type": "string", "enum": ["hateful", "non-hateful"]}
+    }
+    required = ["label"]
+    if condition == "explanation":
+        properties["explanation"] = {"type": "string"}
+        required.append("explanation")
+    return {
+        "type": "json_schema",
+        "json_schema": {
+            "name": "hate_classification",
+            "schema": {
+                "type": "object",
+                "properties": properties,
+                "required": required,
+                "additionalProperties": False,
+            },
+        },
+    }
 
 
 # Permissive: grab the first {...} block, even if the model wrapped it in
