@@ -49,10 +49,17 @@ def _cmd_llm(args: argparse.Namespace) -> None:
 
 
 def _cmd_eval(args: argparse.Namespace) -> None:
-    """Score predictions and produce the results matrix + figures."""
-    from nlp4s.eval import report
+    """Open evaluation.ipynb for full RQ1–RQ3 analysis."""
+    import sys
 
-    report.run(load_yaml(args.config))
+    print(
+        "Evaluation is implemented in evaluation.ipynb.\n"
+        "Open the notebook and run all cells:\n"
+        "  jupyter notebook evaluation.ipynb\n"
+        "  # or: code evaluation.ipynb",
+        file=sys.stderr,
+    )
+    sys.exit(1)
 
 
 _COMMANDS = {
