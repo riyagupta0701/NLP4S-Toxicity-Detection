@@ -1,13 +1,12 @@
 # Implicit vs Explicit Hate Speech Detection in a Multilingual Setting
 
-Full pipeline for studying how well encoder-based and LLM-based hate-speech classifiers handle **implicit** vs **explicit** hate across 7 languages, using [Multilingual HateCheck (MHC)](https://huggingface.co/datasets/mteb/multi-hatecheck) as the evaluation benchmark.
+Full pipeline for studying how well encoder-based and LLM-based hate-speech classifiers handle **implicit** vs **explicit** hate across 7 languages.
 
 **Research questions:**
 - **RQ1** — Does XLM-RoBERTa perform worse on implicit hate speech than explicit, and how does the gap vary across languages?
 - **RQ2** — Does prompting an LLM to produce a rationale (explanation condition) improve classification accuracy for implicit hate, and how does explanation quality correlate with correctness?
 - **RQ3** — How do three LLMs (Aya-23, Mistral-7B, Llama-3-8B) and three few-shot selection strategies (random, BM25, target-group) interact with the implicit/explicit distinction across languages?
 
----
 
 ## Repository layout
 
@@ -26,7 +25,6 @@ docs/             Project proposal and research design
 evaluation.ipynb  Full evaluation notebook (RQ1–RQ3)
 ```
 
----
 
 ## Reproducing the full pipeline
 
@@ -181,13 +179,16 @@ ls outputs/llm/predictions.jsonl           # must exist (Step 6)
 pip install bert-score                     # required for Section 4.1 (BERTScore)
 ```
 
----
 
 ## Datasets
+
+The encoder training corpus is built by merging three hate-speech datasets with `python src/nlp4s/data/merge_hate_datasets.py`. MHC is the evaluation-only benchmark and is downloaded automatically.
 
 | Dataset | Purpose | Size | Languages |
 |---------|---------|------|-----------|
 | **MHC** (Multilingual HateCheck) | Evaluation benchmark | 8,806 examples | ar, nl, fr, de, hi, it, zh, pl, pt, es, en |
+| **Multi3Hate** | Encoder training | ~6,000 examples | en, de, es, zh, hi |
+| **MLMA** (Multilingual and Multilabel Hate Speech) | Encoder training | ~6,000 examples | en, ar, fr |
 | **HASOC 2019/2020** | Encoder training | 25,162 train + 3,808 val | en, de, hi |
 | **Synthetic** (Aya-23 generated) | Few-shot pool augmentation | ~5,308 examples | 10 MHC languages excl. zh |
 
@@ -202,21 +203,19 @@ pip install bert-score                     # required for Section 4.1 (BERTScore
 | `derog_impl_h` | **implicit** | 1,548 |
 | `profanity_nh` | control | 1,100 |
 
----
 
 ## Key findings
 
 | Finding | Value |
 |---------|-------|
 | Encoder overall F1 | 0.775 |
-| Encoder explicit F1 | 0.864 |
+| Encoder explicit F1 | 0.863 |
 | Encoder implicit F1 | 0.542 |
 | Implicit–explicit gap (chi-square) | p = 1.7 × 10⁻¹²⁰ *** |
 | Best LLM implicit F1 (Aya-23, random, explanation) | 0.977 |
 | Explanation effect significance (McNemar) | n.s. for most conditions |
 | Model differences (Friedman, explicit, no_explanation) | p = 1.2 × 10⁻⁴ *** |
 
----
 
 ## CLI reference
 
@@ -227,27 +226,11 @@ nlp4s generate --config configs/data.yaml      # generate synthetic implicit exa
 nlp4s train    --config configs/encoder.yaml   # fine-tune XLM-RoBERTa
 nlp4s infer    --config configs/encoder.yaml   # encoder inference over MHC
 nlp4s llm      --config configs/llm.yaml       # multi-LLM prompting
-nlp4s eval     --config configs/eval.yaml      # evaluate predictions (stub)
+nlp4s eval     --config configs/eval.yaml      # prints a pointer to evaluation.ipynb
 ```
 
 All commands load `.env` automatically via `python-dotenv` if present.
 
----
-
-## LLM-as-Judge (notebook Section 4.2)
-
-A judge LLM scores each explanation on a 3-point rubric: **3** = correct label + specific linguistic evidence; **2** = correct but vague; **1** = wrong or irrelevant. Point-biserial correlation with correctness is reported per model (50 examples × 3 models = 150 total).
-
-Supported backends (set via `.env`):
-
-| Backend | `OPENAI_COMPATIBLE_BASE_URL` | `OPENAI_COMPATIBLE_API_KEY` | `LLM_JUDGE_MODEL` |
-|---------|------------------------------|-----------------------------|--------------------|
-| Local Ollama | `http://localhost:11434/v1` | `ollama` | `llama3` or `mistral` |
-| Cohere API | `https://api.cohere.ai/compatibility/v1` | your `COHERE_API_KEY` | `command-r-08-2024` |
-
-The Cohere trial key is rate-limited to 20 calls/min; the notebook inserts a 3 s delay automatically (~7.5 min total).
-
----
 
 ## Running tests
 
