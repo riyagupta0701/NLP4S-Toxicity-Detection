@@ -32,5 +32,10 @@ scipy
 # Plotting
 matplotlib
 
+# Evaluation notebook (Step 7 / pipeline `eval` stage)
+jupyter
+nbconvert
+ipykernel
+
 # Testing
 pytest
