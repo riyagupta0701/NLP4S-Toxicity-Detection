@@ -1,13 +1,11 @@
-"""
-End-to-end:
+"""Data preparation pipeline: load MHC and HASOC, assemble the training corpus.
+
+Steps:
   1. Load Multilingual HateCheck (filtered to the 6 studied functionalities)
      and write it as JSONL to ``mhc.out_path``.
   2. Load HASOC for the configured languages from ``hasoc.root``.
-  3. Assemble + dedupe the training corpus and write it to ``corpus.out_path``.
-  4. Compute the per-language coverage report (the Phase-2 decision input) and
-     persist it to ``coverage.out_path``.
-
-Implemented as a plain function so it's importable from tests and from the CLI.
+  3. Assemble + deduplicate the training corpus and write it to ``corpus.out_path``.
+  4. Compute the per-language coverage report and persist it to ``coverage_out``.
 """
 
 from __future__ import annotations
@@ -77,7 +75,7 @@ def run(cfg: dict[str, Any]) -> dict[str, int]:
     write_jsonl(corpus_out, corpus)
     print(f"[prep] corpus: wrote {len(corpus)} examples to {corpus_out}")
 
-    # 4. Coverage report.
+    # 4. Coverage report — identifies languages that need synthetic augmentation.
     counts = coverage_report(corpus)
     missing = missing_languages(corpus)
     coverage_out.parent.mkdir(parents=True, exist_ok=True)

@@ -10,7 +10,6 @@ Four filters, applied in order by ``quality_filter`` (cheap → expensive):
   4. Language ID (drop generations that drifted off the requested language).
      Uses ``fasttext-langdetect`` when available; degrades gracefully to a
      no-op + warning if the dependency is missing.
-
 """
 
 from __future__ import annotations

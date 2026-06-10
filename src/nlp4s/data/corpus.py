@@ -1,7 +1,4 @@
-"""Assemble the training corpus and report the MHC-vs-training language gap.
-
-The coverage report identifies which languages need synthetic augmentation.
-"""
+"""Assemble the training corpus and report the MHC-vs-training language coverage gap."""
 
 from __future__ import annotations
 

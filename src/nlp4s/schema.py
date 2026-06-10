@@ -1,10 +1,8 @@
-"""The frozen data schema (shared contract).
+"""Shared data schema for Example and Prediction records.
 
-Every data and prediction record in this project uses these types so the four
-workstreams (data, encoder, llm, eval) can develop independently against
-fixtures. See docs/implementation_plan.md. Do not diverge silently.
-
-Data record fields: ``text, language, label, functionality, split``.
+All pipeline modules exchange data through these types to ensure consistent
+field names and value domains. See docs/implementation_plan.md for field
+definitions.
 """
 
 from __future__ import annotations
