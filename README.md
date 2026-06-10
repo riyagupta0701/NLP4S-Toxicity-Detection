@@ -17,9 +17,9 @@ outputs/          predictions, metrics, figures
 src/nlp4s/        Python package
   data/           MHC + HASOC loading and corpus assembly
   generation/     ToxiGen-style synthetic implicit-hate generation
-  encoder/        XLM-RoBERTa fine-tuning and inference
+  encoder/        XLM-RoBERTa training and inference
   llm/            Multi-LLM prompting (few-shot, caching, parsing)
-scripts/          Experiment sweep scripts and quick-scoring utilities
+scripts/          Full pipeline, experiment sweep scripts and quick-scoring utilities
 tests/            Unit tests and fixtures
 docs/             Project proposal and research design
 evaluation.ipynb  Full evaluation notebook (RQ1–RQ3)
@@ -81,7 +81,9 @@ Edit `.env` and fill in the following keys as needed:
 
 ### Step 2 — Prepare data
 
-**MHC** is downloaded automatically from HuggingFace on first run.
+The training corpus is assembled from three datasets: **HASOC**, **Multi3Hate**, and **MLMA**. **MHC** serves as the evaluation benchmark.
+
+**MHC**, **Multi3Hate**, and **MLMA** are all downloaded automatically from HuggingFace on first run.
 
 **HASOC** (2019/2020, English/German/Hindi) is not redistributable. Obtain the files from the [shared-task organisers](https://hasocfire.github.io/) and place them under:
 
@@ -103,7 +105,7 @@ Outputs:
 | Path | Contents |
 |------|----------|
 | `data/processed/mhc.jsonl` | MHC evaluation set (6 studied functionalities) |
-| `data/processed/train.jsonl` | HASOC training corpus (en/de/hi, deduped) |
+| `data/processed/train.jsonl` | Combined training corpus (HASOC + Multi3Hate + MLMA, deduped) |
 | `outputs/data/coverage.json` | Per-language example counts; identifies synthetic-generation targets |
 
 ### Step 3 — Generate synthetic data (optional)
@@ -120,7 +122,7 @@ Set `generation.target_languages` in `configs/data.yaml` to specific languages, 
 
 ### Step 4 — Train the encoder baseline
 
-Fine-tunes `xlm-roberta-base` on the HASOC corpus for binary hate speech classification. Training takes ~20 min on an M-series Mac (MPS) or a comparable GPU.
+Trains `xlm-roberta-base` on the combined HASOC + Multi3Hate + MLMA corpus for binary hate speech classification. Training takes ~20 min on an M-series Mac (MPS) or a comparable GPU.
 
 ```bash
 # Build the training/validation split first (one-time; writes data/processed/train_split/)
@@ -132,11 +134,11 @@ nlp4s train --config configs/encoder.yaml
 
 The merge step **downloads over the network** — Multi3Hate and MLMA from HuggingFace, and HASOC-2020 from a public GitHub mirror — and reads the HASOC `.xlsx` files via `openpyxl` and detects MLMA languages via `langdetect` (both in `requirements.txt`). It is independent of the `data/raw/hasoc/` files used by Step 2.
 
-The fine-tuned model is saved to `outputs/encoder_baseline/`.
+The trained model is saved to `outputs/encoder_baseline/`.
 
 ### Step 5 — Run encoder inference
 
-Runs the fine-tuned encoder over the 7 MHC languages that overlap with the training data (ar, de, es, fr, hi, zh, en) and writes binary predictions.
+Runs the trained encoder over the 7 MHC languages that overlap with the training data (ar, de, es, fr, hi, zh, en) and writes binary predictions.
 
 ```bash
 nlp4s infer --config configs/encoder.yaml
@@ -263,9 +265,9 @@ The encoder training corpus is built by merging three hate-speech datasets with 
 
 ```bash
 nlp4s --help
-nlp4s prep     --config configs/data.yaml      # load MHC + HASOC, build corpus
+nlp4s prep     --config configs/data.yaml      # load MHC + HASOC + Multi3Hate + MLMA, build corpus
 nlp4s generate --config configs/data.yaml      # generate synthetic implicit examples
-nlp4s train    --config configs/encoder.yaml   # fine-tune XLM-RoBERTa
+nlp4s train    --config configs/encoder.yaml   # train XLM-RoBERTa
 nlp4s infer    --config configs/encoder.yaml   # encoder inference over MHC
 nlp4s llm      --config configs/llm.yaml       # multi-LLM prompting
 nlp4s eval     --config configs/eval.yaml      # prints a pointer to evaluation.ipynb
