@@ -30,6 +30,21 @@ evaluation.ipynb  Full evaluation notebook (RQ1–RQ3)
 
 Run the steps below in order. Each step writes its outputs to disk so you can resume from any checkpoint.
 
+### One-command run
+
+After the environment setup (Step 1), the whole pipeline — prep → synthetic generation → encoder train/infer → LLM prompting → evaluation notebook — can be run end-to-end with a single orchestrator:
+
+```bash
+scripts/run_pipeline.sh                 # full pipeline, LLM sweep @ 25 rows/cell
+scripts/run_pipeline.sh --llm-sub 3     # fast end-to-end smoke test
+scripts/run_pipeline.sh --from train    # resume from encoder training
+scripts/run_pipeline.sh --only "infer llm"   # just the two prediction stages
+scripts/run_pipeline.sh --no-eval       # everything but the notebook
+scripts/run_pipeline.sh --help          # all options
+```
+
+Stages run in dependency order, each writing its outputs to disk, so `--from`, `--only`, and `--skip` let you resume from any checkpoint. `generate` is skipped automatically when `COHERE_API_KEY` is unset; `llm` delegates to the memory-safe `scripts/run_llm_experiments.sh`; `eval` executes `evaluation.ipynb` in place (needs `jupyter` + `bert-score`). The steps below document each stage individually.
+
 ### Step 1 — Environment setup
 
 **Requirements:** Python ≥ 3.10, ~6 GB disk for model weights, a GPU or Apple Silicon MPS device for encoder training.
