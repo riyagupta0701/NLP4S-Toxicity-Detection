@@ -10,7 +10,7 @@ Source columns on HuggingFace (``mteb/multi-hatecheck``):
     ``is_hateful``     — string label, ``"hateful"`` / ``"non-hateful"``.
     ``lang``           — ISO 639-3 code (e.g. ``"ara"``, ``"cmn"``).
 
-Role A. See docs/assignment.md "Dataset".
+See docs/assignment.md "Dataset".
 """
 
 from __future__ import annotations
@@ -20,7 +20,7 @@ from typing import Any, Iterable
 from nlp4s.functionalities import CONTROL, EXPLICIT, IMPLICIT, MHC_LANGUAGES
 from nlp4s.schema import LABELS, Example
 
-# Functionalities kept in the final set (Role A column filter).
+# Functionalities kept in the final set.
 KEEP_FUNCTIONALITIES: frozenset[str] = EXPLICIT | IMPLICIT | CONTROL
 
 # MHC ships ISO 639-3 codes; the frozen schema uses ISO 639-1.

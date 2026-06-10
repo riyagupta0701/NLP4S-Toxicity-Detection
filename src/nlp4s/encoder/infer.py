@@ -1,7 +1,4 @@
-"""Run the fine-tuned encoder over MHC and emit Prediction records.
-
-Role B.
-"""
+"""Run the fine-tuned encoder over MHC and emit Prediction records."""
 
 from __future__ import annotations
 import torch

@@ -98,10 +98,6 @@ def validate(example: Example) -> Example:
 
     Raises:
         ValueError: if a required field is empty or a label is not in LABELS.
-
-    TODO: extend with cross-field validation, e.g. checking ``language`` against
-    functionalities.MHC_LANGUAGES and ``functionality`` against the known
-    EXPLICIT/IMPLICIT/CONTROL sets where applicable.
     """
     if not example.text:
         raise ValueError("Example.text must be non-empty")

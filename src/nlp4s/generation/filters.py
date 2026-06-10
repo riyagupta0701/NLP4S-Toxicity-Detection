@@ -11,7 +11,6 @@ Four filters, applied in order by ``quality_filter`` (cheap → expensive):
      Uses ``fasttext-langdetect`` when available; degrades gracefully to a
      no-op + warning if the dependency is missing.
 
-Role A.
 """
 
 from __future__ import annotations

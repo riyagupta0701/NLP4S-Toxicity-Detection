@@ -1,1 +1,1 @@
-"""Role A — dataset loading, normalisation, and corpus assembly."""
+"""Dataset loading, normalisation, and corpus assembly."""

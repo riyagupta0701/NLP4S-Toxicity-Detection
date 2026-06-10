@@ -24,7 +24,7 @@ Each file is expected to be tab- or comma-separated with (at least):
 Missing per-language directories are skipped with a warning; missing columns
 raise ``ValueError`` so a bad file is loud rather than silently empty.
 
-Role A. See docs/assignment.md "Dataset language coverage".
+See docs/assignment.md "Dataset language coverage".
 """
 
 from __future__ import annotations

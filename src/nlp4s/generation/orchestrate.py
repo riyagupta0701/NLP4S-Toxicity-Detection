@@ -1,10 +1,10 @@
-"""Orchestrate the Role-A synthetic-generation step.
+"""Orchestrate the synthetic-generation step.
 
 End-to-end:
   1. Resolve target languages — explicit list in config, else zero-coverage
      languages from the coverage report written by `nlp4s prep`, else the
      static `languages_without_training_data()` fallback.
-  2. Build the LLM client via `nlp4s.llm.client.build_client` (Role C contract).
+  2. Build the LLM client via `nlp4s.llm.client.build_client`.
   3. Pick demonstrations from the processed MHC dump (filtered to implicit
      hateful + non-hateful controls), or a small built-in seed if absent.
   4. For each target language: generate pairs, dedupe + quality-filter, append.

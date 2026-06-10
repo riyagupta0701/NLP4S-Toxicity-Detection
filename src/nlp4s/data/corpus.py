@@ -1,7 +1,6 @@
 """Assemble the training corpus and report the MHC-vs-training language gap.
 
-Role A. The coverage report feeds the Phase-2 baseline decision point
-(which languages need synthetic augmentation). See docs/implementation_plan.md.
+The coverage report identifies which languages need synthetic augmentation.
 """
 
 from __future__ import annotations

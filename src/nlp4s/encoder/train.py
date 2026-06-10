@@ -1,8 +1,4 @@
-"""Fine-tune XLM-RoBERTa for binary hate speech classification.
-
-Role B. Produces the first baseline that gates the Phase-2 decision, and is
-re-run with synthetic augmentation later. See docs/implementation_plan.md.
-"""
+"""Fine-tune XLM-RoBERTa for binary hate speech classification."""
 
 from __future__ import annotations
 from typing import Any
@@ -81,4 +77,3 @@ def train(config: dict[str, Any]) -> str:
     
     return output_dir
     
-    #raise NotImplementedError("TODO(Role B): implement fine-tuning loop")

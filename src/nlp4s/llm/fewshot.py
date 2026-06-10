@@ -1,10 +1,8 @@
 """Few-shot demonstration selection strategies (RQ3.4).
 
 Compares random selection against selective retrieval. ``target_group`` uses
-the new ``Example.target`` field (MHC ``target_ident``); when the query lacks
+the ``Example.target`` field (MHC ``target_ident``); when the query lacks
 a target it falls back to BM25 within the same language, then global BM25.
-
-Role C.
 """
 
 from __future__ import annotations

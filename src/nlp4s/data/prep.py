@@ -1,8 +1,7 @@
-"""Orchestrate the Role-A data-prep step.
-
+"""
 End-to-end:
   1. Load Multilingual HateCheck (filtered to the 6 studied functionalities)
-     and write it as JSONL to ``mhc.out_path`` for downstream roles to read.
+     and write it as JSONL to ``mhc.out_path``.
   2. Load HASOC for the configured languages from ``hasoc.root``.
   3. Assemble + dedupe the training corpus and write it to ``corpus.out_path``.
   4. Compute the per-language coverage report (the Phase-2 decision input) and

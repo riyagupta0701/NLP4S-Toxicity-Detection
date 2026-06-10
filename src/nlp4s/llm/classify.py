@@ -1,7 +1,7 @@
 """Run multi-LLM prompting over MHC and emit Prediction records (RQ3).
 
 Pipeline:
-  1. Read the processed MHC dump (Role A's ``data/processed/mhc.jsonl``).
+  1. Read the processed MHC dump (``data/processed/mhc.jsonl``).
   2. Split deterministically into eval + pool (``llm.pool.split_mhc``); the
      pool is the few-shot demonstration source, eval is the test set.
   3. Subsample eval per (language, functionality) cell to fit the API budget.
@@ -9,11 +9,9 @@ Pipeline:
      LLM client, build prompts, call the model, parse responses, emit
      ``Prediction`` records to ``predictions_out``.
 
-The few-shot pool is augmented with Role A's synthetic data when available
+The few-shot pool is augmented with synthetic data when available
 (``data/synthetic/implicit.jsonl``), which extends coverage for the 8 MHC
 languages with no HASOC training data.
-
-Role C.
 """
 
 from __future__ import annotations
@@ -41,7 +39,7 @@ def _load_pool(
     mhc_pool: list[Example],
     synthetic_path: str | None,
 ) -> list[Example]:
-    """MHC held-out pool + (optional) Role-A synthetic data."""
+    """MHC held-out pool + (optional) synthetic data."""
     pool = list(mhc_pool)
     if synthetic_path:
         p = Path(synthetic_path)

@@ -1,4 +1,4 @@
-"""On-disk response cache for LLM calls (Role C).
+"""On-disk response cache for LLM calls.
 
 LLM inference at the experiment scale we run (3 models x 2 conditions x
 several few-shot configs x ~thousands of MHC eval rows) costs real money and

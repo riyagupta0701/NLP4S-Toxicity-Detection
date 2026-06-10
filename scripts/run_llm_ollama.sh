@@ -1,5 +1,5 @@
 #!/bin/bash
-# Memory-safe Role C LLM run over local Ollama models, ONE MODEL AT A TIME.
+# Memory-safe LLM run over local Ollama models, ONE MODEL AT A TIME.
 #
 # Why one at a time: on a 16 GB Mac, Ollama's default keep-alive stacks each
 # finished 8B model (~5.5 GB) while loading the next -> 3 models at once swaps

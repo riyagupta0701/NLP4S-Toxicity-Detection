@@ -1,4 +1,4 @@
-"""Role-C tests: prompts, parser, fewshot selection, pool split, cache, orchestrator."""
+"""Tests: prompts, parser, fewshot selection, pool split, cache, orchestrator."""
 
 from __future__ import annotations
 
