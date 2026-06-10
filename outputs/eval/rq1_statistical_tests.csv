@@ -1,0 +1,4 @@
+comparison,acc_a,acc_b,chi2,p_chi2,phi,sig_chi2
+implicit vs explicit,0.3717,0.7598,544.804,0.0,0.3359,***
+implicit vs control,0.3717,0.48,19.783,9e-06,0.1082,***
+explicit vs control,0.7598,0.48,228.182,0.0,0.2242,***

@@ -1,0 +1,10 @@
+model,sel_base,sel_test,stat,pvalue,n00,n01,n10,n11,n,sig
+aya-23,random,bm25,2.5,0.113846,4,2,8,74,88,n.s.
+aya-23,random,target_group,2.5,0.113846,4,2,8,74,88,n.s.
+aya-23,bm25,target_group,0.1667,0.683091,9,3,3,73,88,n.s.
+llama-3-8b,random,bm25,0.5714,0.449692,4,2,5,77,88,n.s.
+llama-3-8b,random,target_group,0.0,1.0,4,2,3,79,88,n.s.
+llama-3-8b,bm25,target_group,0.5,0.4795,7,2,0,79,88,n.s.
+mistral-7b,random,bm25,0.0833,0.77283,12,5,7,64,88,n.s.
+mistral-7b,random,target_group,1.2308,0.267257,13,4,9,62,88,n.s.
+mistral-7b,bm25,target_group,0.5714,0.449692,17,2,5,64,88,n.s.
