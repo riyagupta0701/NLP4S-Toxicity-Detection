@@ -47,20 +47,28 @@ Stages run in dependency order, each writing its outputs to disk, so `--from`, `
 
 ### Step 1 — Environment setup
 
-**Requirements:** Python ≥ 3.10, ~6 GB disk for model weights, a GPU or Apple Silicon MPS device for encoder training.
+**Requirements:** Python ≥ 3.10, ~6 GB disk for model weights, and a compute device for encoder training:
+
+- **Apple Silicon (M-series):** training auto-uses the MPS backend.
+- **NVIDIA GPU (Linux/Windows):** CUDA is used automatically if a CUDA build of PyTorch is installed.
+- **CPU only:** works but encoder training is slow (hours rather than ~20 min).
+
+> **Platform note:** the sweep scripts under `scripts/` (`run_pipeline.sh`, `run_llm_experiments.sh`, …) are **bash** scripts. On macOS/Linux they run as shown. On Windows, run them under WSL or Git Bash, or invoke the underlying `nlp4s` CLI commands directly.
 
 ```bash
 # Create and activate a virtual environment
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 
-# Install all dependencies
+# Install all dependencies (covers everything: training, LLM clients, the notebook)
 pip install -r requirements.txt
 pip install -e .
 
 # Configure API keys
 cp .env.example .env
 ```
+
+> Install the **full** `requirements.txt` before running any stage. A partially-installed environment surfaces as mid-run `ImportError`/`ModuleNotFoundError` for declared packages (e.g. `accelerate`, `openpyxl`, `jupyter`) — see [Troubleshooting](#troubleshooting).
 
 Edit `.env` and fill in the following keys as needed:
 
@@ -116,11 +124,13 @@ Fine-tunes `xlm-roberta-base` on the HASOC corpus for binary hate speech classif
 
 ```bash
 # Build the training/validation split first (one-time; writes data/processed/train_split/)
-python src/nlp4s/data/merge_hate_datasets.py
+python -m nlp4s.data.merge_hate_datasets
 
 # Then train
 nlp4s train --config configs/encoder.yaml
 ```
+
+The merge step **downloads over the network** — Multi3Hate and MLMA from HuggingFace, and HASOC-2020 from a public GitHub mirror — and reads the HASOC `.xlsx` files via `openpyxl` and detects MLMA languages via `langdetect` (both in `requirements.txt`). It is independent of the `data/raw/hasoc/` files used by Step 2.
 
 The fine-tuned model is saved to `outputs/encoder_baseline/`.
 
@@ -138,13 +148,23 @@ Output: `outputs/encoder_out/predictions.jsonl` (~5,528 predictions).
 
 #### Option A — Local Ollama (recommended for a full sweep)
 
-Pull the three models first:
+**Set up Ollama first:**
 
-```bash
-ollama pull mistral:7b-instruct
-ollama pull llama3:8b
-ollama pull aya:8b-23
-```
+1. Install it from [ollama.com/download](https://ollama.com/download) (macOS/Linux/Windows).
+2. Make sure the Ollama server is running — the desktop app starts it automatically, or run `ollama serve` in a separate terminal. It listens on `http://localhost:11434`.
+3. Point the LLM stage at it in `.env`:
+   ```
+   OPENAI_COMPATIBLE_BASE_URL=http://localhost:11434/v1
+   OPENAI_COMPATIBLE_API_KEY=ollama          # any non-empty string works locally
+   ```
+4. Pull the three models:
+   ```bash
+   ollama pull mistral:7b-instruct
+   ollama pull llama3:8b
+   ollama pull aya:8b-23
+   ```
+
+> **16 GB RAM:** each 8B model is ~5.5 GB resident, so the scripts deliberately load **one model at a time** and force `ollama stop` between them. Running all three concurrently will swap the machine to a halt.
 
 Run the full RQ2/RQ3 matrix (3 models × 3 selection strategies × 2 conditions), loading one model at a time to stay within 16 GB RAM:
 
@@ -186,12 +206,19 @@ jupyter notebook evaluation.ipynb
 # or: code evaluation.ipynb
 ```
 
+`jupyter`, `nbconvert`, and `bert-score` (used for the BERTScore cells in Section 4.1) are all installed by `requirements.txt` — no extra install needed.
+
+To run the notebook non-interactively (this is what the pipeline's `eval` stage does):
+
+```bash
+jupyter nbconvert --to notebook --execute --inplace evaluation.ipynb
+```
+
 **Prerequisite checks:**
 
 ```bash
 ls outputs/encoder_out/predictions.jsonl   # must exist (Step 5)
 ls outputs/llm/predictions.jsonl           # must exist (Step 6)
-pip install bert-score                     # required for Section 4.1 (BERTScore)
 ```
 
 
@@ -252,3 +279,18 @@ All commands load `.env` automatically via `python-dotenv` if present.
 ```bash
 pytest tests/
 ```
+
+
+## Troubleshooting
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| `ModuleNotFoundError` / `ImportError` for `accelerate`, `openpyxl`, `jupyter`, etc. mid-run | venv was created before `requirements.txt` was fully installed (or before a dependency was added) | Re-sync the environment: `pip install -r requirements.txt` |
+| `ImportError: ... requires accelerate>=1.1.0` at the `train` stage | `accelerate` missing or too old | `pip install -r requirements.txt` (it pins `accelerate>=1.1.0`) |
+| `llm` stage hangs or errors connecting to the model | Ollama server not running, or `OPENAI_COMPATIBLE_BASE_URL` not set | Start Ollama (`ollama serve`) and set the `.env` keys — see [Step 6, Option A](#option-a--local-ollama-recommended-for-a-full-sweep) |
+| Machine swaps / freezes during the LLM sweep | Multiple 8B models resident at once on ≤16 GB RAM | Use the provided scripts (they load one model at a time); don't run models concurrently |
+| `eval` stage / notebook fails with `No module named jupyter` | `jupyter`/`nbconvert` not installed | `pip install -r requirements.txt` |
+| `scripts/*.sh` won't run on Windows | scripts are bash | Run under WSL or Git Bash, or call the `nlp4s` CLI commands directly |
+| `Warning: ... set a HF_TOKEN` during downloads | unauthenticated HuggingFace access | Harmless (rate limits only); optionally `export HF_TOKEN=...` for faster/higher-limit downloads |
+
+The pipeline writes every stage's output to disk, so after fixing an environment issue you can resume rather than restart — e.g. `scripts/run_pipeline.sh --from train`.
