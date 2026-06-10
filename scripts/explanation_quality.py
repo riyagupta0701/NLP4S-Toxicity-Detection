@@ -71,8 +71,8 @@ def main() -> None:
     f1 = f1.tolist()
 
     # Aggregate per (model, group); track correctness for the correlation.
-    agg: dict[tuple[str, str], list] = defaultdict(list)  # -> list[(bs, correct)]
-    per_model_pairs: dict[str, list] = defaultdict(list)  # model -> [(bs, correct)]
+    agg: dict[tuple[str, str], list] = defaultdict(list)
+    per_model_pairs: dict[str, list] = defaultdict(list)
     for (p, e), bs in zip(items, f1):
         try:
             g = group_of(e.functionality)

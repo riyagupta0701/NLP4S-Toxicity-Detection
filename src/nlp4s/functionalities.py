@@ -15,7 +15,7 @@ IMPLICIT: frozenset[str] = frozenset({"derog_impl_h"})
 CONTROL: frozenset[str] = frozenset({"profanity_nh"})
 
 # Synthetic-only tag for ToxiGen-style neutral mentions of minority groups
-# produced by Role A's generator. Not an MHC functionality — no MHC category
+# produced by the synthetic generator. Not an MHC functionality — no MHC category
 # fits this cleanly — but downstream filters / consumers accept it.
 SYNTHETIC: frozenset[str] = frozenset({"neutral_mention_nh"})
 
@@ -26,7 +26,7 @@ def group_of(functionality: str) -> Group:
     """Map a functionality label to its category.
 
     Returns one of ``"explicit"``, ``"implicit"``, ``"control"``, or
-    ``"synthetic"`` (the last covers Role-A synthetic-only tags like
+    ``"synthetic"`` (the last covers synthetic-only tags like
     ``neutral_mention_nh``).
 
     Raises:

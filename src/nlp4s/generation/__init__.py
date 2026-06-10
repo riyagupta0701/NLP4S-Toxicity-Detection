@@ -1,1 +1,1 @@
-"""Role A — synthetic implicit-multilingual data generation."""
+"""Synthetic implicit-multilingual data generation."""

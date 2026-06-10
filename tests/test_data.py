@@ -1,4 +1,4 @@
-"""Role-A tests: MHC row mapping, HASOC loading, corpus assembly + coverage."""
+"""Tests: MHC row mapping, HASOC loading, corpus assembly + coverage."""
 
 from __future__ import annotations
 

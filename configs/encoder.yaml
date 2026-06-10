@@ -1,4 +1,4 @@
-# Role B — XLM-RoBERTa encoder baseline
+# XLM-RoBERTa encoder baseline
 # Consumed by nlp4s.encoder.*
 
 model:

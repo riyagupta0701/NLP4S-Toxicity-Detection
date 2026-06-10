@@ -1,1 +1,1 @@
-"""Role C — multi-LLM prompting (API-based, no fine-tuning)."""
+"""Multi-LLM prompting (API-based, no fine-tuning)."""

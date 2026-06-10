@@ -1,7 +1,9 @@
 """Fine-tune XLM-RoBERTa for binary hate speech classification.
 
-Role B. Produces the first baseline that gates the Phase-2 decision, and is
-re-run with synthetic augmentation later. See docs/implementation_plan.md.
+Reads the training and validation splits from ``train.train_path`` /
+``train.val_path`` (CSV files produced by ``merge_hate_datasets.py``),
+trains with the HuggingFace Trainer, and saves the model to
+``train.output_dir``.
 """
 
 from __future__ import annotations
@@ -34,27 +36,25 @@ def train(config: dict[str, Any]) -> str:
     model_name = config["model"]["name"]
     max_length = config["model"]["max_length"]
     
-    #load raw data and model
     train_df = pd.read_csv(PROJECT_ROOT / config["train"]["train_path"])
-    val_df   = pd.read_csv(PROJECT_ROOT / config["train"]["val_path"])
+    val_df = pd.read_csv(PROJECT_ROOT / config["train"]["val_path"])
     model, tokenizer = load_model_and_tokenizer(model_name, config["model"]["num_labels"])
-    
+
     train_dataset = Dataset.from_dict({"text": train_df["text"].tolist(),
                                        "label": train_df["label"].tolist()})
-    val_dataset   = Dataset.from_dict({"text": val_df["text"].tolist(),
-                                       "label": val_df["label"].tolist()})
-    
-    #tokenization func
+    val_dataset = Dataset.from_dict({"text": val_df["text"].tolist(),
+                                     "label": val_df["label"].tolist()})
+
     def tokenize_fn(batch):
         return tokenizer(
-            batch["text"], 
-            padding="max_length", 
-            truncation=True, 
-            max_length=max_length
+            batch["text"],
+            padding="max_length",
+            truncation=True,
+            max_length=max_length,
         )
-        
+
     train_dataset = train_dataset.map(tokenize_fn, batched=True)
-    val_dataset   = val_dataset.map(tokenize_fn, batched=True)
+    val_dataset = val_dataset.map(tokenize_fn, batched=True)
     
     training_args = TrainingArguments(
         output_dir=output_dir,
@@ -81,4 +81,3 @@ def train(config: dict[str, Any]) -> str:
     
     return output_dir
     
-    #raise NotImplementedError("TODO(Role B): implement fine-tuning loop")

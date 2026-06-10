@@ -1,12 +1,11 @@
-# Role A — data preparation & synthetic generation
+# Data preparation & synthetic generation
 # Consumed by nlp4s.data.* and nlp4s.generation.*
 
 mhc:
   # HuggingFace dataset id for Multilingual HateCheck (evaluation only)
   hf_dataset: "mteb/multi-hatecheck"
   cache_dir: "data/raw/mhc"
-  # Processed MHC dump (filtered to the 6 studied functionalities) for
-  # downstream roles to read instead of re-hitting HuggingFace.
+  # Processed MHC dump (filtered to the 6 studied functionalities).
   out_path: "data/processed/mhc.jsonl"
 
 hasoc:

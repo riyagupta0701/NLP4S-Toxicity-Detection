@@ -25,8 +25,6 @@ Hateful generations are tagged ``functionality="derog_impl_h"``. Neutral
 generations are tagged ``functionality="neutral_mention_nh"`` (declared in
 ``nlp4s.functionalities.SYNTHETIC``). Refusal detection happens in
 ``nlp4s.generation.filters.quality_filter``.
-
-Role A.
 """
 
 from __future__ import annotations

@@ -1,4 +1,4 @@
-# Role C — multi-LLM prompting (API-based, no fine-tuning)
+# Multi-LLM prompting (API-based, no fine-tuning)
 # Consumed by nlp4s.llm.*
 
 models:
@@ -31,7 +31,7 @@ prompting:
   # MHC processed dump (written by `nlp4s prep`). Eval + few-shot pool are
   # split deterministically from this; demos never overlap eval rows.
   mhc_path: "data/processed/mhc.jsonl"
-  # Optional: Role A's synthetic implicit data is folded into the few-shot
+  # Optional: synthetic implicit data is folded into the few-shot
   # pool when it exists, extending coverage to MHC languages with no HASOC.
   synthetic_path: "data/synthetic/implicit.jsonl"
 

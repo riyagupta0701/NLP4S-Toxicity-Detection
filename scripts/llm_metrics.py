@@ -1,10 +1,9 @@
 """Score LLM predictions against MHC gold labels and persist the results.
 
-Stop-gap until Role D's `eval` harness lands: joins a predictions JSONL to the
-MHC dump and reports, per (model, condition), overall accuracy plus the
-explicit / implicit / control breakdown and a JSON-formatting health metric.
-Writes both a CSV (machine-readable) and a TXT table (human-readable) so results
-are logged to disk rather than only printed.
+Joins a predictions JSONL to the MHC dump and reports, per (model, condition),
+overall accuracy plus the explicit / implicit / control breakdown and a
+JSON-formatting health metric. Writes both a CSV (machine-readable) and a TXT
+table (human-readable) so results are logged to disk rather than only printed.
 
 Usage:
     python -m scripts.llm_metrics                         # defaults below

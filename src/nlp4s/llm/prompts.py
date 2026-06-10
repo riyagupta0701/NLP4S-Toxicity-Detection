@@ -8,9 +8,7 @@ Design choices (settled with the team):
   (``{"label": "...", "explanation": "..."}``) so parsing is robust across
   models. Free-prose drift is handled by extracting the first JSON object.
 - Parse failures emit ``pred_label="non-hateful"`` (the conservative default,
-  documented for Role D). The fallback is also flagged in the rationale.
-
-Role C.
+  flagged in the rationale field).
 """
 
 from __future__ import annotations

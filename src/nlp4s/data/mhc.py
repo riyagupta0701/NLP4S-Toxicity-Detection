@@ -1,7 +1,7 @@
-"""Load Multilingual HateCheck (evaluation benchmark) into the frozen schema.
+"""Load Multilingual HateCheck (MHC) into the shared schema.
 
-MHC is evaluation-only (no training split). This module loads it and keeps only
-rows whose functionality falls in the studied implicit/explicit/control subset
+MHC is used for evaluation only (no training split). Only rows whose
+functionality falls in the studied implicit/explicit/control subset are kept
 (see ``nlp4s.functionalities``).
 
 Source columns on HuggingFace (``mteb/multi-hatecheck``):
@@ -9,8 +9,6 @@ Source columns on HuggingFace (``mteb/multi-hatecheck``):
     ``text``           — the test-case sentence.
     ``is_hateful``     — string label, ``"hateful"`` / ``"non-hateful"``.
     ``lang``           — ISO 639-3 code (e.g. ``"ara"``, ``"cmn"``).
-
-Role A. See docs/assignment.md "Dataset".
 """
 
 from __future__ import annotations
@@ -20,7 +18,7 @@ from typing import Any, Iterable
 from nlp4s.functionalities import CONTROL, EXPLICIT, IMPLICIT, MHC_LANGUAGES
 from nlp4s.schema import LABELS, Example
 
-# Functionalities kept in the final set (Role A column filter).
+# Functionalities kept in the final set.
 KEEP_FUNCTIONALITIES: frozenset[str] = EXPLICIT | IMPLICIT | CONTROL
 
 # MHC ships ISO 639-3 codes; the frozen schema uses ISO 639-1.

@@ -1,4 +1,4 @@
-"""Hold out a portion of MHC as the few-shot demonstration pool (Role C).
+"""Hold out a portion of MHC as the few-shot demonstration pool.
 
 MHC is the evaluation benchmark, so we cannot use the same rows for both
 prompting demonstrations and scoring. ``split_mhc`` partitions MHC

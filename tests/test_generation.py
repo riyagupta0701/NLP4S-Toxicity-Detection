@@ -1,4 +1,4 @@
-"""Role-A tests: synthetic-generation filters + hybrid ToxiGen generator (stubbed LLM)."""
+"""Tests: synthetic-generation filters + hybrid ToxiGen generator (stubbed LLM)."""
 
 from __future__ import annotations
 

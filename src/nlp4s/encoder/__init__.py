@@ -1,1 +1,1 @@
-"""Role B — XLM-RoBERTa encoder baseline (fine-tune + inference)."""
+"""XLM-RoBERTa encoder baseline (fine-tune + inference)."""

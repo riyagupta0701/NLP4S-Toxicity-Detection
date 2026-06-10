@@ -1,4 +1,4 @@
-"""LLM client abstraction over hosted APIs (Role C).
+"""LLM client abstraction over hosted APIs.
 
 A single ``LLMClient`` interface with two backends:
 - ``CohereClient``     — Aya models (uses COHERE_API_KEY).
@@ -23,12 +23,7 @@ class LLMClient(abc.ABC):
 
 
 class CohereClient(LLMClient):
-    """Aya backend via the Cohere API (Chat v2 endpoint).
-
-    Minimal Role-A implementation so `nlp4s generate` is runnable end-to-end
-    against real Aya before Role C lands their multi-backend version. Role C
-    is free to rewrite this — the public surface is just ``complete``.
-    """
+    """Aya backend via the Cohere API (Chat v2 endpoint)."""
 
     def __init__(self, model_id: str) -> None:
         import os

@@ -1,30 +1,25 @@
-"""Load and normalise HASOC training data into the frozen schema.
+"""Load and normalise HASOC training data into the shared schema.
 
 HASOC is a coarse binary HOF/NOT task; only English/German/Hindi overlap with
 the MHC evaluation languages, and there is no implicit/explicit annotation
-(``functionality`` is left empty).
+(``functionality`` is left empty on every loaded record).
 
 Expected on-disk layout under ``root`` (HASOC files are not redistributable, so
-you obtain them from the shared-task organisers and drop them here)::
+obtain them from the shared-task organisers and place them here)::
 
     data/raw/hasoc/
-      en/                       # any number of HASOC English TSV/CSV files
-        hasoc_2019_en_train.tsv
-        hasoc_2020_en_train.tsv
-      de/
-        hasoc_2019_de_train.tsv
-      hi/
-        hasoc_2019_hi_train.tsv
+      en/   hasoc_2019_en_train.tsv  hasoc_2020_en_train.tsv  ...
+      de/   hasoc_2019_de_train.tsv  ...
+      hi/   hasoc_2019_hi_train.tsv  ...
 
-Each file is expected to be tab- or comma-separated with (at least):
-    ``text`` column   — variants accepted: ``text``, ``tweet``, ``comment``, ``post``.
-    ``label`` column  — variants accepted: ``task_1``, ``task1``, ``label``,
-                        ``subtask_1``, ``Task 1``. Values: ``HOF`` / ``NOT``.
+Each file must be tab- or comma-separated with at minimum:
+    ``text`` column  — accepted variants: ``text``, ``tweet``, ``comment``, ``post``.
+    ``label`` column — accepted variants: ``task_1``, ``task1``, ``label``,
+                       ``subtask_1``, ``Task 1``. Values: ``HOF`` / ``NOT``.
 
 Missing per-language directories are skipped with a warning; missing columns
-raise ``ValueError`` so a bad file is loud rather than silently empty.
-
-Role A. See docs/assignment.md "Dataset language coverage".
+raise ``ValueError`` so a bad file fails loudly rather than silently producing
+empty data.
 """
 
 from __future__ import annotations

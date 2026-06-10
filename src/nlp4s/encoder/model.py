@@ -1,7 +1,4 @@
-"""XLM-RoBERTa model + tokenizer wrappers.
-
-Role B.
-"""
+"""XLM-RoBERTa model + tokenizer wrappers."""
 
 from __future__ import annotations
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
@@ -17,4 +14,3 @@ def load_model_and_tokenizer(name: str, num_labels: int) -> tuple[Any, Any]:
     model = AutoModelForSequenceClassification.from_pretrained(name, num_labels=num_labels)
     return model, tokenizer
     
-    #raise NotImplementedError("TODO(Role B): implement model/tokenizer loading")

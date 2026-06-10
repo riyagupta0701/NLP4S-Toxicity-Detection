@@ -1,7 +1,4 @@
 """Tests for the shared contracts: schema, io_utils, functionalities.
-
-Role-specific behaviour (data loading, training, prompting, metrics) is not
-covered yet — TODO for each role to add tests alongside their implementation.
 """
 
 from __future__ import annotations

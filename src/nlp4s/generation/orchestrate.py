@@ -1,16 +1,13 @@
-"""Orchestrate the Role-A synthetic-generation step.
+"""Orchestrate the synthetic implicit-hate generation step.
 
-End-to-end:
-  1. Resolve target languages — explicit list in config, else zero-coverage
-     languages from the coverage report written by `nlp4s prep`, else the
-     static `languages_without_training_data()` fallback.
-  2. Build the LLM client via `nlp4s.llm.client.build_client` (Role C contract).
-  3. Pick demonstrations from the processed MHC dump (filtered to implicit
-     hateful + non-hateful controls), or a small built-in seed if absent.
-  4. For each target language: generate pairs, dedupe + quality-filter, append.
-  5. Write the combined synthetic corpus to `generation.out_path`.
-
-Implemented as a plain function so it's importable from tests and the CLI.
+Steps:
+  1. Resolve target languages from the config, the coverage report written by
+     ``nlp4s prep``, or the static ``languages_without_training_data()`` fallback.
+  2. Build the LLM client via ``nlp4s.llm.client.build_client``.
+  3. Load demonstration examples from the processed MHC dump (implicit hateful
+     + non-hateful controls), or fall back to a small built-in English seed.
+  4. For each target language: generate pairs, deduplicate, quality-filter, append.
+  5. Write the combined synthetic corpus to ``generation.out_path``.
 """
 
 from __future__ import annotations
