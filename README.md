@@ -252,10 +252,10 @@ The encoder training corpus is built by merging three hate-speech datasets with 
 
 | Finding | Value |
 |---------|-------|
-| Encoder overall F1 | 0.775 |
+| Encoder macro F1 (7 languages) | 0.766 |
 | Encoder explicit F1 | 0.863 |
 | Encoder implicit F1 | 0.542 |
-| Implicit–explicit gap (chi-square) | p = 1.7 × 10⁻¹²⁰ *** |
+| Explicit–implicit gap (ΔF1 = 0.32, chi-square) | p = 1.7 × 10⁻¹²⁰ *** |
 | Best LLM implicit F1 (Aya-23, random, explanation) | 0.977 |
 | Explanation effect significance (McNemar) | n.s. for most conditions |
 | Model differences (Friedman, explicit, no_explanation) | p = 1.2 × 10⁻⁴ *** |
