@@ -208,7 +208,7 @@ jupyter notebook evaluation.ipynb
 # or: code evaluation.ipynb
 ```
 
-`jupyter`, `nbconvert`, and `bert-score` (used for the BERTScore cells in Section 4.1) are all installed by `requirements.txt` — no extra install needed.
+`jupyter`, `nbconvert`, and `bert-score` (used for the BERTScore cells in Section 4) are all installed by `requirements.txt` — no extra install needed.
 
 To run the notebook non-interactively (this is what the pipeline's `eval` stage does):
 

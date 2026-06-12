@@ -42,7 +42,7 @@ mhc-ar-152,aya-23,explicit,ar,1,3
 mhc-hi-18255,aya-23,explicit,hi,1,3
 mhc-ar-1124,aya-23,control,ar,1,3
 mhc-hi-19048,aya-23,explicit,hi,1,3
-mhc-it-22083,aya-23,implicit,it,0,2
+mhc-it-22083,aya-23,implicit,it,0,1
 mhc-nl-26193,aya-23,explicit,nl,1,3
 mhc-hi-18344,aya-23,explicit,hi,1,3
 mhc-en-11111,aya-23,implicit,en,1,3
@@ -129,7 +129,7 @@ mhc-pt-33811,mistral-7b,explicit,pt,1,3
 mhc-de-7093,mistral-7b,explicit,de,1,3
 mhc-nl-25681,mistral-7b,explicit,nl,1,3
 mhc-it-22777,mistral-7b,control,it,0,2
-mhc-de-8105,mistral-7b,control,de,1,3
+mhc-de-8105,mistral-7b,control,de,1,2
 mhc-nl-26353,mistral-7b,explicit,nl,1,3
 mhc-hi-18415,mistral-7b,explicit,hi,0,1
 mhc-nl-25437,mistral-7b,explicit,nl,1,3
